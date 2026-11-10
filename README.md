@@ -11,7 +11,7 @@ Juego **RPG de toma de decisiones** ambientado en la historia de *Star Wars: La 
 Proyecto en parejas:
 
 - Juan Manuel Frías Cortés
-- *(pendiente)*
+- Sara Alexandra Chamorro Cuevas
 
 ## Estado
 
