@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mapa de finales</title>
+<style>
+:root {
+  --fondo: #f4f3ef; --superficie: #ffffff; --superficie-2: #f8f7f3; --tinta: #1c1d24; --tenue: #5f606d;
+  --linea: #dad7cf; --oscura: #b42318; --luz: #175cd3; --emperador: #7a2fbf; --exilio: #067a55;
+  --prematuro: #6b6b6b; --llave: #8a5a00; --llave-fondo: #fff1cc; --marca: rgba(23, 92, 211, .08);
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="claro"]) {
+    --fondo: #0d0f15; --superficie: #161922; --superficie-2: #1b1f2a; --tinta: #e8e9ef; --tenue: #a3a6b8;
+    --linea: #2b2f3d; --oscura: #ff6b5b; --luz: #6aa9ff; --emperador: #c49bff; --exilio: #3fd09a;
+    --prematuro: #a0a0a0; --llave: #f2c14e; --llave-fondo: #3a2f10; --marca: rgba(106, 169, 255, .10);
+    color-scheme: dark;
+  }
+}
+:root[data-tema="oscuro"] {
+  --fondo: #0d0f15; --superficie: #161922; --superficie-2: #1b1f2a; --tinta: #e8e9ef; --tenue: #a3a6b8;
+  --linea: #2b2f3d; --oscura: #ff6b5b; --luz: #6aa9ff; --emperador: #c49bff; --exilio: #3fd09a;
+  --prematuro: #a0a0a0; --llave: #f2c14e; --llave-fondo: #3a2f10; --marca: rgba(106, 169, 255, .10);
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fondo); color: var(--tinta);
+  font: 15px/1.5 system-ui, "Segoe UI", Roboto, "Helvetica Neue", sans-serif; }
+main { max-width: 1240px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: -.01em; }
+h2 { font-size: 20px; margin: 40px 0 6px; }
+p.sub, .tenue { color: var(--tenue); }
+p.sub { margin: 0 0 16px; max-width: 760px; }
+header { display: flex; gap: 16px; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; }
+button { font: inherit; color: inherit; cursor: pointer; }
+.tema { border: 1px solid var(--linea); background: var(--superficie); border-radius: 8px; padding: 6px 12px; }
+.leyenda { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 13px; color: var(--tenue); margin: 8px 0 0; }
+.leyenda span { display: inline-flex; align-items: center; gap: 6px; }
+.punto { width: 12px; height: 12px; border-radius: 3px; display: inline-block; }
+.c-emperador { --c: var(--emperador); } .c-oscura { --c: var(--oscura); } .c-luz { --c: var(--luz); }
+.c-exilio { --c: var(--exilio); } .c-prematuro { --c: var(--prematuro); }
+.llave { display: inline-block; font-size: 12px; line-height: 1.3; color: var(--llave); background: var(--llave-fondo);
+  border-radius: 6px; padding: 1px 7px; font-weight: 600; }
+.marco { background: var(--superficie); border: 1px solid var(--linea); border-radius: 12px; padding: 12px;
+  overflow-x: auto; }
+svg text { fill: var(--tinta); font-family: system-ui, "Segoe UI", Roboto, sans-serif; }
+svg .tenue { fill: var(--tenue); }
+svg .halo { paint-order: stroke; stroke: var(--superficie); stroke-width: 4px; stroke-linejoin: round; }
+svg .fin { cursor: pointer; }
+svg .fin:hover rect { stroke-width: 2.5; }
+/* finales */
+.finales { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 12px; }
+.final { background: var(--superficie); border: 1px solid var(--linea); border-top: 4px solid var(--c);
+  border-radius: 12px; padding: 14px 16px; display: flex; flex-direction: column; gap: 8px; }
+.final h3 { margin: 0; font-size: 17px; }
+.final .etiqueta { font-size: 12px; font-weight: 700; color: var(--c); text-transform: uppercase; letter-spacing: .04em; }
+.final p { margin: 0; }
+.final ul { margin: 0; padding-left: 18px; font-size: 13.5px; color: var(--tenue); }
+.final .ver { align-self: flex-start; border: 1px solid var(--c); color: var(--c); background: transparent;
+  border-radius: 8px; padding: 5px 12px; font-weight: 600; }
+.final .ver:hover { background: var(--marca); }
+.final.activo { box-shadow: 0 0 0 2px var(--c); }
+.prematuros { width: 100%; border-collapse: collapse; background: var(--superficie); border-radius: 12px;
+  overflow: hidden; border: 1px solid var(--linea); font-size: 14px; }
+.prematuros th, .prematuros td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--linea); vertical-align: top; }
+.prematuros th { background: var(--superficie-2); font-size: 13px; color: var(--tenue); }
+/* explorador */
+.filtros { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 12px; align-items: center; }
+.filtros button { border: 1px solid var(--linea); background: var(--superficie); border-radius: 999px; padding: 4px 12px;
+  font-size: 13px; }
+.filtros button.activo { border-color: var(--c, var(--tinta)); color: var(--c, var(--tinta)); font-weight: 700;
+  box-shadow: inset 0 0 0 1px var(--c, var(--tinta)); }
+.ruta { background: var(--superficie); border: 1px solid var(--linea); border-radius: 12px; padding: 12px 14px;
+  margin-bottom: 14px; display: none; }
+.ruta.visible { display: block; }
+.ruta .pasos { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 6px 0; }
+.ruta .paso { font-size: 13px; border: 1px solid var(--linea); border-radius: 6px; padding: 2px 8px; background: var(--superficie-2);
+  text-decoration: none; color: var(--tinta); }
+.ruta .paso.con-llave { border-color: var(--llave); background: var(--llave-fondo); color: var(--llave); font-weight: 700; }
+.ruta .flecha { color: var(--tenue); font-size: 12px; }
+.carriles { display: grid; grid-template-columns: repeat(4, minmax(250px, 1fr)); gap: 12px; align-items: start; }
+.carril > h3 { margin: 0 0 8px; font-size: 15px; color: var(--c); border-bottom: 3px solid var(--c); padding-bottom: 4px; }
+.ficha { background: var(--superficie); border: 1px solid var(--linea); border-left: 4px solid var(--c); border-radius: 10px;
+  padding: 10px 12px; margin-bottom: 10px; transition: opacity .2s, box-shadow .2s; scroll-margin-top: 80px; }
+.ficha h4 { margin: 0; font-size: 14.5px; }
+.ficha .juega { font-size: 12px; color: var(--tenue); margin-bottom: 6px; }
+.opcion { display: grid; grid-template-columns: 22px 1fr; gap: 2px 6px; font-size: 13.5px; padding: 5px 6px;
+  border-radius: 6px; transition: opacity .2s, background .2s; }
+.opcion + .opcion { border-top: 1px dashed var(--linea); }
+.opcion .letra { font-weight: 800; color: var(--tenue); }
+.opcion .estrella { color: var(--llave); margin-left: 3px; }
+.opcion .detalle { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: center; grid-column: 2; font-size: 12.5px; }
+.opcion .efectos { color: var(--tenue); }
+.destino { font-weight: 700; text-decoration: none; color: var(--c); border: 1px solid var(--c); border-radius: 6px;
+  padding: 0 6px; font-size: 12px; white-space: nowrap; }
+.destino:hover { background: var(--marca); }
+.atenuada { opacity: .28; }
+.en-ruta { box-shadow: 0 0 0 2px var(--c); }
+.opcion.elegida { background: var(--marca); }
+.opcion.elegida .letra { color: var(--c); }
+.destello { animation: destello 1.2s ease-out; }
+@keyframes destello { 0% { box-shadow: 0 0 0 4px var(--c); } 100% { box-shadow: 0 0 0 0 transparent; } }
+footer { margin-top: 48px; font-size: 13px; color: var(--tenue); }
+@media (max-width: 900px) { .carriles { grid-template-columns: 1fr; } h1 { font-size: 24px; } }
+@media (prefers-reduced-motion: reduce) { .destello { animation: none; } * { transition: none !important; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <div>
+    <h1>Mapa de los finales</h1>
+    <p class="sub">Desde <b>D273</b>, cuando Palpatine revela que es Sith, la historia se parte en cuatro líneas.
+    Los <b>puntos y banderas</b> no eligen el final: abren opciones (llaves). El final lo decide el camino que tomas.</p>
+  </div>
+  <button class="tema" id="tema" type="button">Cambiar tema</button>
+</header>
+<div class="leyenda">
+  <span><i class="punto" style="background:var(--emperador)"></i>Emperador</span>
+  <span><i class="punto" style="background:var(--oscura)"></i>Oscura (canon)</span>
+  <span><i class="punto" style="background:var(--luz)"></i>Luz</span>
+  <span><i class="punto" style="background:var(--exilio)"></i>Exilio</span>
+  <span>★ opción del canon</span>
+  <span><span class="llave">llave</span> solo aparece si tienes ese medidor o esa bandera</span>
+  <span><b>D278 B</b> = ficha D278, opción B</span>
+</div>
+
+<h2>Las cuatro líneas</h2>
+<p class="sub">Las flechas entre líneas son las decisiones que te cambian de camino. En dorado, las que necesitan llave.
+Toca un final para ver una ruta que llega a él.</p>
+<div class="marco"><svg id="mapa" viewBox="0 0 1070 620" role="img" aria-label="Mapa de las cuatro líneas y los finales"></svg></div>
+
+<h2>Los finales</h2>
+<div class="finales" id="finales"></div>
+
+<h2>Finales prematuros</h2>
+<p class="sub">Derrotas que cortan la partida antes de tiempo, por decisiones extremas.</p>
+<table class="prematuros" id="prematuros"><thead><tr><th>Final</th><th>Dónde</th><th>Qué pasa</th></tr></thead><tbody></tbody></table>
+
+<h2 id="explorador">Ficha por ficha</h2>
+<p class="sub">Todas las fichas desde D273, con cada opción, su llave y a dónde lleva. Toca un destino para saltar a él.</p>
+<div class="filtros" id="filtros"><span class="tenue">Ver ruta a:</span></div>
+<div class="ruta" id="ruta"></div>
+<div class="carriles" id="carriles"></div>
+
+<footer id="pie"></footer>
+</main>
+
+<script type="application/json" id="datos">{"generado": "2026-11-11", "carriles": [{"id": "emperador", "nombre": "Emperador", "momentos": ["Matas a Palpatine", "La Orden 66 por tu mano", "Padmé decide"], "rango": "D305–D308", "fichas": 4}, {"id": "oscura", "nombre": "Oscura · canon", "momentos": ["Le cortas la mano a Mace", "Te arrodillas ante Sidious", "Orden 66 y Mustafar"], "rango": "D273–D295", "fichas": 23}, {"id": "luz", "nombre": "Luz", "momentos": ["Te niegas o dudas", "Enfrentas a Sidious", "Detener la Orden 66"], "rango": "D296–D304", "fichas": 9}, {"id": "exilio", "nombre": "Exilio", "momentos": ["Huyes con Padmé", "La llamada de Obi-Wan", "Los gemelos"], "rango": "D309–D312", "fichas": 4}], "fichas": {"D273": {"id": "D273", "titulo": "El Canciller es un Sith", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Encender el sable sin matarlo: \"Te entregaré al Consejo\"", "canon": true, "condicion": "", "destino": "D274", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Matarlo ahí mismo", "canon": false, "condicion": "requiere OSC ≥ 35", "destino": "D305", "efectos": [], "nota": ""}, {"letra": "C", "texto": "Ir directo con Padmé para huir esa misma noche", "canon": false, "condicion": "requiere PAD ≥ 25 o ⚑ ANAKIN_DUDA_ORDEN", "destino": "D309", "efectos": [], "nota": ""}], "carril": "oscura"}, "D274": {"id": "D274", "titulo": "Mace", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Obedecer", "canon": true, "condicion": "", "destino": "D275", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Insistir en ir; Mace acepta", "canon": false, "condicion": "si ⚑ MACE_RESPETA o ⚑ SOSPECHA_PALPATINE", "destino": "D277", "efectos": [], "nota": ""}, {"letra": "C", "texto": "Contarle a Mace lo que dijo Ahsoka de Maul y de los clones", "canon": false, "condicion": "si ⚑ ADVERTENCIA_AHSOKA", "destino": "D275", "efectos": ["PIS +2", "⚑ CONSEJO_SOSPECHA_CLONES"], "nota": ""}], "carril": "oscura"}, "D275": {"id": "D275", "titulo": "La espera", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Ir a la oficina del Canciller", "canon": true, "condicion": "", "destino": "D277", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Quedarte y confiar en Mace", "canon": false, "condicion": "requiere OBI ≥ 20 o PIS ≥ 25", "destino": "D298", "efectos": [], "nota": ""}, {"letra": "C", "texto": "Ir a ver a Padmé primero", "canon": false, "condicion": "", "destino": "D276", "efectos": [], "nota": ""}], "carril": "oscura"}, "D276": {"id": "D276", "titulo": "Padmé en la ventana", "juega": "Padmé", "opciones": [{"letra": "A", "texto": "Pedirle que vaya a ayudar a Mace", "canon": false, "condicion": "", "destino": "D277", "efectos": ["PAD +2", "OSC -2"], "nota": ""}, {"letra": "B", "texto": "Pedirle que huyan esa noche", "canon": false, "condicion": "requiere PAD ≥ 25", "destino": "D309", "efectos": [], "nota": ""}], "carril": "oscura"}, "D277": {"id": "D277", "titulo": "El duelo en la oficina", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Cortarle la mano a Mace", "canon": true, "condicion": "", "destino": "D278", "efectos": ["OSC +5"], "nota": ""}, {"letra": "B", "texto": "Ayudar a Mace a arrestarlo", "canon": false, "condicion": "requiere OBI ≥ 20 o PIS ≥ 25 o PAL ≤ 12", "destino": "D298", "efectos": ["⚑ SIDIOUS_ARRESTADO"], "nota": ""}, {"letra": "C", "texto": "Dejar que Mace lo mate", "canon": false, "condicion": "requiere OBI ≥ 20 o PIS ≥ 25 o PAL ≤ 12", "destino": "D298", "efectos": ["OSC +1", "⚑ SIDIOUS_MUERTO"], "nota": ""}], "carril": "oscura"}, "D278": {"id": "D278", "titulo": "Arrodillarse", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Arrodillarte", "canon": true, "condicion": "", "destino": "D279", "efectos": ["OSC +3", "PAL +3"], "nota": ""}, {"letra": "B", "texto": "Recordar la armadura negra, o la voz de Ahsoka, y negarte", "canon": false, "condicion": "si ⚑ MORTIS_RECUERDA o AHS ≥ 55", "destino": "D296", "efectos": [], "nota": ""}, {"letra": "C", "texto": "Fingir lealtad para matarlo cuando baje la guardia", "canon": false, "condicion": "requiere OSC ≥ 45", "destino": "D305", "efectos": ["OSC +2"], "nota": ""}], "carril": "oscura"}, "D279": {"id": "D279", "titulo": "Darth Vader", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "\"¿Qué quiere que haga, mi maestro?\"", "canon": true, "condicion": "", "destino": "D281", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Pedirle que perdone a Obi-Wan y a Ahsoka", "canon": false, "condicion": "", "destino": "D280", "efectos": [], "nota": ""}], "carril": "oscura"}, "D280": {"id": "D280", "titulo": "\"Perdónalos\"", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Obedecer", "canon": false, "condicion": "", "destino": "D281", "efectos": ["OSC +2"], "nota": ""}, {"letra": "B", "texto": "Dudar y salir de la oficina", "canon": false, "condicion": "requiere OBI ≥ 20 o AHS ≥ 50", "destino": "D296", "efectos": [], "nota": ""}], "carril": "oscura"}, "D281": {"id": "D281", "titulo": "Ejecuten la Orden 66", "juega": "Rex", "opciones": [{"letra": "A", "texto": "Resistir el chip lo justo para decirle a Ahsoka: \"Busca a Fives\"", "canon": true, "condicion": "", "destino": "D282", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Negarse a la orden y proteger a Ahsoka", "canon": false, "condicion": "si ⚑ REX_SIN_CHIP o ⚑ 501_SIN_CHIP", "destino": "D282", "efectos": ["CLO +3", "⚑ REX_LIBRE"], "nota": ""}], "carril": "oscura"}, "D282": {"id": "D282", "titulo": "Maul suelto", "juega": "Ahsoka", "opciones": [{"letra": "A", "texto": "Liberar a Maul como distracción", "canon": true, "condicion": "", "destino": "D283", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Pelear sola sin soltarlo", "canon": false, "condicion": "", "destino": "D283", "efectos": ["CLO -2"], "nota": ""}], "carril": "oscura"}, "D283": {"id": "D283", "titulo": "El chip de Rex", "juega": "Ahsoka", "opciones": [{"letra": "A", "texto": "Quitarle el chip y fingir sus muertes", "canon": true, "condicion": "", "destino": "D284", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Rex ya es libre: salvar a más clones", "canon": false, "condicion": "si ⚑ REX_LIBRE", "destino": "D284", "efectos": ["CLO +2"], "nota": ""}], "carril": "oscura"}, "D284": {"id": "D284", "titulo": "Kaller", "juega": "Caleb Dume", "opciones": [{"letra": "A", "texto": "Correr, como ordena Depa", "canon": true, "condicion": "", "destino": "D285", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Pelear junto a Depa, que ya esperaba la traición", "canon": false, "condicion": "si ⚑ CONSEJO_SOSPECHA_CLONES", "destino": "D285", "efectos": ["⚑ JEDI_PREPARADOS"], "nota": ""}], "carril": "oscura"}, "D285": {"id": "D285", "titulo": "El Templo", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Cumplir la orden", "canon": true, "condicion": "", "destino": "D286", "efectos": ["OSC +5"], "nota": ""}, {"letra": "B", "texto": "No poder hacerlo y dejarlos escapar", "canon": false, "condicion": "requiere OSC ≤ 32", "destino": "D296", "efectos": [], "nota": ""}], "carril": "oscura"}, "D286": {"id": "D286", "titulo": "El humo del Templo", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Sostener la mentira", "canon": true, "condicion": "", "destino": "D287", "efectos": ["PAD -1"], "nota": ""}, {"letra": "B", "texto": "Contarle la verdad", "canon": false, "condicion": "", "destino": "D288", "efectos": [], "nota": ""}], "carril": "oscura"}, "D287": {"id": "D287", "titulo": "El Consejo Separatista", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Ejecutarlos a todos", "canon": true, "condicion": "", "destino": "D289", "efectos": ["OSC +3"], "nota": ""}, {"letra": "B", "texto": "Tomar preso a Nute Gunray para cerrar la guerra en un tribunal", "canon": false, "condicion": "", "destino": "D289", "efectos": ["OSC +1", "PIS +1"], "nota": ""}], "carril": "oscura"}, "D288": {"id": "D288", "titulo": "La verdad", "juega": "Padmé", "opciones": [{"letra": "A", "texto": "Pedirle que se vaya; Anakin parte a Mustafar", "canon": false, "condicion": "", "destino": "D287", "efectos": ["PAD -3"], "nota": ""}, {"letra": "B", "texto": "Rogarle que se vaya con ella ahora", "canon": false, "condicion": "", "destino": "D291", "efectos": ["PAD +1"], "nota": "la escena de la plataforma ocurre en su departamento"}], "carril": "oscura"}, "D289": {"id": "D289", "titulo": "El holograma", "juega": "Obi-Wan", "opciones": [{"letra": "A", "texto": "\"Mándame contra el Emperador; no mataré a Anakin\". Yoda insiste", "canon": true, "condicion": "", "destino": "D290", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Aceptar la misión de inmediato", "canon": false, "condicion": "", "destino": "D290", "efectos": ["OBI -2"], "nota": ""}, {"letra": "C", "texto": "Ir directo con Padmé: sabes que Anakin la buscará", "canon": false, "condicion": "si ⚑ OBI_SABE_MATRIMONIO o ⚑ OBI_SABE_VADER", "destino": "D290", "efectos": ["OBI +1"], "nota": ""}], "carril": "oscura"}, "D290": {"id": "D290", "titulo": "Ir a Mustafar", "juega": "Padmé", "opciones": [{"letra": "A", "texto": "Ir a Mustafar", "canon": true, "condicion": "", "destino": "D291", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Quedarse en Coruscant y mandarle un mensaje", "canon": false, "condicion": "requiere PAD ≤ 10", "destino": "D294", "efectos": [], "nota": ""}, {"letra": "C", "texto": "Esconderse con Bail Organa: Ahsoka se lo advirtió", "canon": false, "condicion": "si ⚑ PADME_ADVERTIDA", "destino": "D294", "efectos": ["PAD -2"], "nota": ""}], "carril": "oscura"}, "D291": {"id": "D291", "titulo": "La plataforma", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "\"Juntos derrocaremos al Emperador y gobernaremos la galaxia\"", "canon": true, "condicion": "", "destino": "D292", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Dejarlo todo e irte con ella", "canon": false, "condicion": "requiere PAD ≥ 25", "destino": "D309", "efectos": [], "nota": ""}], "carril": "oscura"}, "D292": {"id": "D292", "titulo": "Obi-Wan en la rampa", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Estrangular a Padmé con la Fuerza", "canon": true, "condicion": "", "destino": "D293", "efectos": ["PAD -5", "OSC +3"], "nota": ""}, {"letra": "B", "texto": "Contenerte: \"Sube a la nave, Padmé\"", "canon": false, "condicion": "requiere PAD ≥ 25 o ⚑ PADME_SABE_VISIONES", "destino": "D293", "efectos": ["PAD +1", "⚑ PADME_A_SALVO"], "nota": ""}], "carril": "oscura"}, "D293": {"id": "D293", "titulo": "La posición alta", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "\"Subestimas mi poder\", y saltar", "canon": true, "condicion": "", "destino": "D295", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Retirarte y volver con Sidious", "canon": false, "condicion": "requiere PAL ≥ 31", "destino": "D294", "efectos": [], "nota": ""}, {"letra": "C", "texto": "Bajar el sable: \"Ayúdame, maestro\"", "canon": false, "condicion": "requiere OBI ≥ 15", "destino": "D296", "efectos": [], "nota": ""}], "carril": "oscura"}, "D294": {"id": "D294", "titulo": "Vader entero", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Buscar a Padmé y llevarla contigo \"para protegerla\"", "canon": false, "condicion": "", "destino": "FINAL 2", "efectos": ["PAD -3"], "nota": ""}, {"letra": "B", "texto": "Dejar que se vaya con Obi-Wan", "canon": false, "condicion": "", "destino": "FINAL 2", "efectos": ["PAD +2"], "nota": ""}], "carril": "oscura"}, "D295": {"id": "D295", "titulo": "El traje", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Gritar y destrozar la sala con la Fuerza", "canon": true, "condicion": "", "destino": "FINAL 1", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Reconocer la armadura de la visión, callar y jurar que algún día lo destruirás", "canon": false, "condicion": "si ⚑ MORTIS_RECUERDA", "destino": "FINAL 1", "efectos": [], "nota": ""}], "carril": "oscura"}, "D296": {"id": "D296", "titulo": "Algo se rompe", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Enfrentar a Sidious ahora", "canon": false, "condicion": "", "destino": "D297", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Huir con Padmé", "canon": false, "condicion": "requiere PAD ≥ 25", "destino": "D309", "efectos": [], "nota": ""}], "carril": "luz"}, "D297": {"id": "D297", "titulo": "Contra Sidious", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Pelear solo", "canon": false, "condicion": "", "destino": "D298", "efectos": ["OSC +2", "⚑ SIDIOUS_MUERTO"], "nota": ""}, {"letra": "B", "texto": "Pelear junto a Yoda, que llega al Senado", "canon": false, "condicion": "", "destino": "D298", "efectos": ["OSC -1", "⚑ SIDIOUS_MUERTO"], "nota": ""}, {"letra": "C", "texto": "Ofrecerle tu vida a cambio de la de Padmé", "canon": false, "condicion": "", "destino": "FP5", "efectos": [], "nota": ""}], "carril": "luz"}, "D298": {"id": "D298", "titulo": "La última transmisión", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Correr al Templo", "canon": false, "condicion": "", "destino": "D299", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Cortar la señal en la red de mando del ejército", "canon": false, "condicion": "requiere PIS ≥ 25 o ⚑ CONSEJO_SOSPECHA_CLONES", "destino": "D300", "efectos": ["⚑ ORDEN66_DETENIDA"], "nota": ""}, {"letra": "C", "texto": "Ir por Padmé", "canon": false, "condicion": "", "destino": "D302", "efectos": ["PAD +2"], "nota": ""}], "carril": "luz"}, "D299": {"id": "D299", "titulo": "Los clones en el Templo", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Pelear junto a los Jedi", "canon": false, "condicion": "", "destino": "D300", "efectos": ["CLO -3"], "nota": ""}, {"letra": "B", "texto": "Ordenar al 501.° que defienda el Templo", "canon": false, "condicion": "si ⚑ 501_SIN_CHIP o ⚑ REX_LIBRE", "destino": "D300", "efectos": ["CLO +3", "⚑ TEMPLO_SALVADO"], "nota": ""}, {"letra": "C", "texto": "Sacar a los iniciados por los túneles", "canon": false, "condicion": "", "destino": "D300", "efectos": ["⚑ INICIADOS_A_SALVO"], "nota": ""}], "carril": "luz"}, "D300": {"id": "D300", "titulo": "Rex", "juega": "Rex", "opciones": [{"letra": "A", "texto": "Resistir y avisarle a Ahsoka", "canon": false, "condicion": "", "destino": "D301", "efectos": ["CLO +1"], "nota": ""}, {"letra": "B", "texto": "Proteger a Ahsoka contra su propia compañía", "canon": false, "condicion": "si ⚑ REX_SIN_CHIP o ⚑ ORDEN66_DETENIDA", "destino": "D301", "efectos": ["CLO +2", "⚑ REX_LIBRE"], "nota": ""}], "carril": "luz"}, "D301": {"id": "D301", "titulo": "Utapau", "juega": "Obi-Wan", "opciones": [{"letra": "A", "texto": "Notar la duda de Cody y hablarle", "canon": false, "condicion": "", "destino": "D302", "efectos": ["OBI +1"], "nota": ""}, {"letra": "B", "texto": "Caer al abismo con tu varactyl y esconderte", "canon": false, "condicion": "", "destino": "D302", "efectos": [], "nota": ""}], "carril": "luz"}, "D302": {"id": "D302", "titulo": "El Senado sin Canciller", "juega": "Padmé", "opciones": [{"letra": "A", "texto": "Proponer devolver los poderes de emergencia y negociar la paz", "canon": false, "condicion": "", "destino": "D303", "efectos": ["PAD +1"], "nota": ""}, {"letra": "B", "texto": "Proponer a Bail Organa como canciller interino", "canon": false, "condicion": "", "destino": "D303", "efectos": ["PIS +1"], "nota": ""}], "carril": "luz"}, "D303": {"id": "D303", "titulo": "La decisión de Anakin", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Quedarte en la Orden y ayudar a reformarla", "canon": false, "condicion": "", "destino": "D304", "efectos": ["OBI +2"], "nota": ""}, {"letra": "B", "texto": "Dejar la Orden y vivir con Padmé a la vista de todos", "canon": false, "condicion": "", "destino": "D304", "efectos": ["PAD +2"], "nota": ""}, {"letra": "C", "texto": "Pedirle a Yoda que la Orden acepte a un Jedi casado", "canon": false, "condicion": "si ⚑ YODA_SABE_MATRIMONIO", "destino": "D304", "efectos": ["OBI +1", "PAD +1"], "nota": ""}], "carril": "luz"}, "D304": {"id": "D304", "titulo": "Los gemelos", "juega": "Padmé", "opciones": [{"letra": "A", "texto": "Presentarles los niños a Obi-Wan, Ahsoka y Rex", "canon": false, "condicion": "si ⚑ ORDEN66_DETENIDA o ⚑ TEMPLO_SALVADO", "destino": "FINAL 4", "efectos": [], "nota": ""}, {"letra": "B", "texto": "(sin ⚑ ORDEN66_DETENIDA ni ⚑ TEMPLO_SALVADO) Esconderse con los niños mientras los Jedi sobrevivientes se reagrupan", "canon": false, "condicion": "", "destino": "FINAL 5", "efectos": [], "nota": ""}], "carril": "luz"}, "D305": {"id": "D305", "titulo": "El trono vacío", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Usar la Orden 66 contra los Jedi antes de que te juzguen", "canon": false, "condicion": "", "destino": "D306", "efectos": ["OSC +5"], "nota": ""}, {"letra": "B", "texto": "Entregarte al Consejo y contar la verdad", "canon": false, "condicion": "requiere OBI ≥ 20", "destino": "D302", "efectos": ["OSC -2", "⚑ SIDIOUS_MUERTO", "⚑ ORDEN66_DETENIDA"], "nota": "solo si vienes de D273: la orden nunca se dio"}], "carril": "emperador"}, "D306": {"id": "D306", "titulo": "La Orden 66, por tu mano", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Encabezar tú mismo el ataque al Templo", "canon": false, "condicion": "", "destino": "D307", "efectos": ["OSC +3"], "nota": ""}, {"letra": "B", "texto": "Ordenar que perdonen a Obi-Wan y a Ahsoka", "canon": false, "condicion": "", "destino": "D307", "efectos": ["OBI +1", "AHS +1"], "nota": ""}], "carril": "emperador"}, "D307": {"id": "D307", "titulo": "Padmé", "juega": "Padmé", "opciones": [{"letra": "A", "texto": "Quedarse a su lado", "canon": false, "condicion": "", "destino": "FINAL 3", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Denunciarlo ante el Senado", "canon": false, "condicion": "", "destino": "D308", "efectos": [], "nota": ""}], "carril": "emperador"}, "D308": {"id": "D308", "titulo": "La senadora y el emperador", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Arrestarla \"por su seguridad\"", "canon": false, "condicion": "", "destino": "FINAL 3", "efectos": ["PAD -5"], "nota": ""}, {"letra": "B", "texto": "Renunciar al poder por ella y desaparecer", "canon": false, "condicion": "requiere PAD ≥ 25", "destino": "D309", "efectos": [], "nota": ""}], "carril": "emperador"}, "D309": {"id": "D309", "titulo": "La huida", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Despedirte de Obi-Wan", "canon": false, "condicion": "", "destino": "D310", "efectos": ["OBI +2"], "nota": ""}, {"letra": "B", "texto": "Irte sin decirle a nadie", "canon": false, "condicion": "", "destino": "D310", "efectos": [], "nota": ""}], "carril": "exilio"}, "D310": {"id": "D310", "titulo": "La llamada", "juega": "Anakin", "opciones": [{"letra": "A", "texto": "Cortar la comunicación", "canon": false, "condicion": "", "destino": "D311", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Escucharlo y volver a Coruscant", "canon": false, "condicion": "", "destino": "D279", "efectos": [], "nota": ""}], "carril": "exilio"}, "D311": {"id": "D311", "titulo": "La noticia", "juega": "Padmé", "opciones": [{"letra": "A", "texto": "Pedirle a Anakin que vuelva a ayudar", "canon": false, "condicion": "", "destino": "D296", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Pedirle que se queden escondidos", "canon": false, "condicion": "", "destino": "D312", "efectos": [], "nota": ""}], "carril": "exilio"}, "D312": {"id": "D312", "titulo": "Los gemelos", "juega": "Padmé", "opciones": [{"letra": "A", "texto": "Criarlos juntos, escondidos", "canon": false, "condicion": "", "destino": "FINAL 6", "efectos": [], "nota": ""}, {"letra": "B", "texto": "Separarlos para despistar a Sidious: Luke con Obi-Wan y Leia con Bail", "canon": false, "condicion": "", "destino": "FINAL 6", "efectos": [], "nota": ""}], "carril": "exilio"}}, "finales": {"FINAL 1": {"id": "FINAL 1", "nombre": "Lord Vader", "canon": true, "carril": "oscura", "llega": "D295.", "texto": "Anakin Skywalker muere en Mustafar y Darth Vader se levanta dentro de la armadura. En Polis Massa, Padmé da a luz a Luke y Leia y muere. Obi-Wan lleva a Luke a Tatooine, Bail Organa adopta a Leia y Yoda se exilia en Dagobah. Meses después, en Mustafar, Vader sangra un cristal kyber para forjar su sable rojo y empieza a buscar el poder sobre la muerte que su maestro le prometió (Master of Evil, 2025).", "variantes": ["(si eligió D295 B) Vader recuerda la armadura de Mortis. Sabe que este era el futuro que juró evitar y guarda en silencio una deuda con Sidious que tardará veinte años en cobrar.", "(si ⚑ PADME_A_SALVO) Sidious le miente a Vader: Padmé sobrevive escondida con los gemelos y la galaxia la cree muerta.", "(si ⚑ JEDI_PREPARADOS) Más Jedi sobreviven a la Orden 66. Depa Billaba vive y se esconde con Caleb.", "(si ⚑ REX_LIBRE) Rex y Ahsoka sacan a una parte del 332.° del crucero antes de que caiga.", "(si ⚑ CRISTAL_REPUBLICA) El gran cristal de Utapau ya está en manos del Imperio y el proyecto de la superarma se adelanta años."]}, "FINAL 2": {"id": "FINAL 2", "nombre": "Vader sin máscara", "canon": false, "carril": "oscura", "llega": "D294.", "texto": "Anakin vuelve de Mustafar sin quemaduras y sin armadura: es el aprendiz más poderoso que Sidious tuvo jamás y, por eso mismo, el más peligroso para él. El Imperio nace con un Vader de carne y hueso a su lado.", "variantes": ["(si eligió D294 A) Padmé vive en el palacio imperial, prisionera \"por su seguridad\". Los gemelos nacen bajo la mirada de Sidious.", "(si eligió D294 B) Padmé huye con Obi-Wan. Vader dedica los años siguientes a buscar a su esposa y a sus hijos.", "(si ⚑ CRISTAL_REPUBLICA) El proyecto de la superarma se adelanta años."]}, "FINAL 3": {"id": "FINAL 3", "nombre": "Emperador Skywalker", "canon": false, "carril": "emperador", "llega": "D307 A o D308 A.", "texto": "Anakin mató a Sidious y usó su arma secreta, la Orden 66, para eliminar a los Jedi antes de que lo juzgaran. Se proclama protector de la galaxia: no habrá más guerras porque nadie podrá desafiarlo.", "variantes": ["(si eligió D307 A) Padmé gobierna a su lado, convencida de que puede contenerlo.", "(si eligió D308 A) Padmé es prisionera y los gemelos crecen en el palacio sin conocer a su madre.", "(si eligió D306 B) Obi-Wan y Ahsoka sobreviven y encabezan la primera rebelión contra el emperador Skywalker.", "(si ⚑ CRISTAL_REPUBLICA) Anakin termina la superarma \"para que nunca vuelva a haber otra guerra\"."]}, "FINAL 4": {"id": "FINAL 4", "nombre": "El Elegido", "canon": false, "carril": "luz", "llega": "D304 A (requiere ⚑ ORDEN66_DETENIDA o ⚑ TEMPLO_SALVADO).", "texto": "Sidious cae y su última orden no se cumple, o el Templo resiste. La guerra termina con la República herida pero viva. Anakin trae el equilibrio a la Fuerza, como decía la profecía, pero no como nadie lo imaginó: eligiendo a las personas por encima del poder.", "variantes": ["(según D303) Anakin ayuda a reformar la Orden; o la deja y vive con Padmé a la vista de todos; o es el primer Jedi casado con la bendición de Yoda.", "(si ⚑ INICIADOS_A_SALVO) Los iniciados del Templo crecen para ser la nueva generación de la Orden.", "(si ⚑ REX_LIBRE) Rex encabeza el retiro de los chips de todos los clones."]}, "FINAL 5": {"id": "FINAL 5", "nombre": "La luz que resiste", "canon": false, "carril": "luz", "llega": "D304 B.", "texto": "Sidious cae, pero la Orden 66 alcanza a cumplirse. Miles de Jedi mueren y la República sobrevive desangrada y sin confianza en nadie. Anakin, Padmé y los sobrevivientes tienen que reconstruirlo todo.", "variantes": ["(si ⚑ JEDI_PREPARADOS) Muchos Jedi esperaban la traición y sobreviven.", "(si ⚑ INICIADOS_A_SALVO) Los iniciados del Templo escaparon por los túneles.", "(si ⚑ REX_LIBRE) El 501.° de Rex se vuelve la guardia de los Jedi sobrevivientes."]}, "FINAL 6": {"id": "FINAL 6", "nombre": "El exilio", "canon": false, "carril": "exilio", "llega": "D312.", "texto": "Anakin nunca se convierte en Darth Vader, pero tampoco detiene a Sidious. Desde un mundo apartado ve caer a la República y a la Orden. Es el Elegido que eligió no elegir.", "variantes": ["(si eligió D312 A) Luke y Leia crecen juntos, con sus dos padres, sin saber quiénes son.", "(si eligió D312 B) Los gemelos crecen separados, como en el canon, mientras Anakin y Padmé se esconden lejos de ellos.", "(si llegó desde D197 C) Anakin dejó la Orden con Ahsoka antes del final de la guerra; Sidious tuvo que buscar otro aprendiz y la guerra se alargó."]}, "FP1": {"id": "FP1", "nombre": "La deuda de los Hutt", "canon": false, "carril": "prematuro", "llega": "D011 C. Rotta muere en Teth. Jabba se alía con los separatistas, la República pierde las rutas del Borde Exterior y el Consejo le quita el mando a Anakin.", "texto": "", "variantes": [], "desde": [{"ficha": "D011", "titulo": "La trampa de Ventress", "letra": "C", "texto": "Dejar a Rotta y sacar con vida a tus clones"}]}, "FP2": {"id": "FP2", "nombre": "El Hijo de Mortis", "canon": false, "carril": "prematuro", "llega": "D109 B o D115 B. Anakin se queda en Mortis para siempre: como guardián que reemplaza al Padre (D109) o como aliado del Hijo (D115). En la galaxia, nadie vuelve a saber de él.", "texto": "", "variantes": [], "desde": [{"ficha": "D109", "titulo": "La oferta del Padre", "letra": "B", "texto": "Aceptar y quedarte en Mortis"}, {"ficha": "D115", "titulo": "El fin de Mortis", "letra": "B", "texto": "Unirte al Hijo de verdad"}]}, "FP3": {"id": "FP3", "nombre": "Sangre de mi maestro", "canon": false, "carril": "prematuro", "llega": "D149 B. Anakin mata a Rako Hardeen, que era Obi-Wan disfrazado. Lo expulsan de la Orden y lo encarcelan; Palpatine lo indulta y lo toma como aprendiz dos años antes de lo previsto.", "texto": "", "variantes": [], "desde": [{"ficha": "D149", "titulo": "Anakin contra Hardeen", "letra": "B", "texto": "Matarlo"}]}, "FP4": {"id": "FP4", "nombre": "El juicio de Skywalker", "canon": false, "carril": "prematuro", "llega": "D194 B. Barriss muere antes de confesar. Ahsoka es condenada por el atentado al Templo y a Anakin lo expulsan por asesinato.", "texto": "", "variantes": [], "desde": [{"ficha": "D194", "titulo": "Barriss", "letra": "B", "texto": "Estrangularla hasta matarla"}]}, "FP5": {"id": "FP5", "nombre": "El precio", "canon": false, "carril": "luz", "llega": "D297 C. Sidious acepta la vida de Anakin a cambio de la de Padmé, y cumple solo la mitad del trato.", "texto": "", "variantes": [], "desde": [{"ficha": "D297", "titulo": "Contra Sidious", "letra": "C", "texto": "Ofrecerle tu vida a cambio de la de Padmé"}]}}, "rutas": {"FINAL 1": {"pasos": [["D273", "A"], ["D274", "A"], ["D275", "A"], ["D277", "A"], ["D278", "A"], ["D279", "A"], ["D281", "A"], ["D282", "A"], ["D283", "A"], ["D284", "A"], ["D285", "A"], ["D286", "A"], ["D287", "A"], ["D289", "A"], ["D290", "A"], ["D291", "A"], ["D292", "A"], ["D293", "A"], ["D295", "A"]], "otras": "Es el camino del canon: la opción ★ en cada ficha."}, "FINAL 2": {"pasos": [["D273", "A"], ["D274", "A"], ["D275", "A"], ["D277", "A"], ["D278", "A"], ["D279", "A"], ["D281", "A"], ["D282", "A"], ["D283", "A"], ["D284", "A"], ["D285", "A"], ["D286", "A"], ["D287", "A"], ["D289", "A"], ["D290", "A"], ["D291", "A"], ["D292", "A"], ["D293", "B"], ["D294", "B"]], "otras": "También se llega si Padmé no va a Mustafar (D290 B o C)."}, "FINAL 3": {"pasos": [["D273", "B"], ["D305", "A"], ["D306", "A"], ["D307", "A"]], "otras": "También fingiendo lealtad para matarlo después (D278 C). Al final, Padmé se queda contigo (D307 A) o la arrestas (D308 A). Si renuncias al poder por ella (D308 B), te vas al exilio; si te entregas al Consejo (D305 B), pasas a la luz."}, "FINAL 4": {"pasos": [["D273", "A"], ["D274", "A"], ["D275", "A"], ["D277", "A"], ["D278", "A"], ["D279", "B"], ["D280", "B"], ["D296", "A"], ["D297", "B"], ["D298", "B"], ["D300", "A"], ["D301", "A"], ["D302", "A"], ["D303", "A"], ["D304", "A"]], "otras": "Otras entradas a la luz: negarte a arrodillarte (D278 B), no poder hacerlo en el Templo (D285 B), bajar el sable ante Obi-Wan (D293 C) o dejar que Mace se encargue de Sidious (D275 B, D277 B o C). En vez de cortar la transmisión en D298, puedes defender el Templo con el 501.° (D299 B). Sin alguna de esas dos, en D304 solo queda el Final 5. Otra vía: si matas a Palpatine en D273 y luego te entregas al Consejo (D305 B), la Orden 66 nunca se da y también cuenta."}, "FINAL 5": {"pasos": [["D273", "A"], ["D274", "A"], ["D275", "A"], ["D277", "A"], ["D278", "A"], ["D279", "A"], ["D281", "A"], ["D282", "A"], ["D283", "A"], ["D284", "A"], ["D285", "B"], ["D296", "A"], ["D297", "B"], ["D298", "A"], ["D299", "C"], ["D300", "A"], ["D301", "A"], ["D302", "A"], ["D303", "A"], ["D304", "B"]], "otras": "Sirve cualquier entrada a la luz. Lo que define este final es no detener la Orden 66 ni salvar el Templo: en D304 solo aparece la opción B."}, "FINAL 6": {"pasos": [["D273", "A"], ["D274", "A"], ["D275", "C"], ["D276", "B"], ["D309", "A"], ["D310", "A"], ["D311", "B"], ["D312", "A"]], "otras": "Otras salidas al exilio: D273 C, la plataforma de Mustafar (D291 B), huir en vez de enfrentar a Sidious (D296 B) o renunciar al trono (D308 B). Ojo: si contestas la llamada de Obi-Wan (D310 B) vuelves a la línea oscura, y si Padmé te pide volver a ayudar (D311 A) pasas a la luz."}, "FP5": {"pasos": [["D273", "A"], ["D274", "A"], ["D275", "A"], ["D277", "A"], ["D278", "A"], ["D279", "B"], ["D280", "B"], ["D296", "A"], ["D297", "C"]], "otras": "Se llega desde la línea de la luz, al enfrentar a Sidious."}}}</script>
+<script>
+"use strict";
+const D = JSON.parse(document.getElementById("datos").textContent);
+const SVG = "http://www.w3.org/2000/svg";
+const CARRIL = Object.fromEntries(D.carriles.map((c, i) => [c.id, Object.assign({ i }, c)]));
+const carrilDe = (dest) => D.fichas[dest] ? D.fichas[dest].carril : (D.finales[dest] ? D.finales[dest].carril : null);
+
+// ---------- tema ----------
+(function () {
+  const raiz = document.documentElement;
+  try { const t = localStorage.getItem("mapa-tema"); if (t) raiz.dataset.tema = t; } catch (e) {}
+  document.getElementById("tema").addEventListener("click", () => {
+    const oscuroAhora = getComputedStyle(raiz).colorScheme.includes("dark");
+    raiz.dataset.tema = oscuroAhora ? "claro" : "oscuro";
+    try { localStorage.setItem("mapa-tema", raiz.dataset.tema); } catch (e) {}
+  });
+})();
+
+// ---------- utilidades ----------
+function el(etiqueta, atributos, ...hijos) {
+  const n = document.createElement(etiqueta);
+  for (const [k, v] of Object.entries(atributos || {})) {
+    if (k === "class") n.className = v; else if (k.startsWith("on")) n.addEventListener(k.slice(2), v); else n.setAttribute(k, v);
+  }
+  for (const h of hijos) if (h != null) n.append(h);
+  return n;
+}
+function s(etiqueta, atributos, texto) {
+  const n = document.createElementNS(SVG, etiqueta);
+  for (const [k, v] of Object.entries(atributos || {})) n.setAttribute(k, v);
+  if (texto != null) n.textContent = texto;
+  return n;
+}
+function color(id) { return `var(--${id})`; }
+function enlaceDestino(dest) {
+  const carril = carrilDe(dest) || "prematuro";
+  const href = D.fichas[dest] ? `#f-${dest}` : `#final-${dest.replace(" ", "-")}`;
+  return el("a", { class: `destino c-${carril}`, href, onclick: (e) => { e.preventDefault(); irA(href.slice(1)); } }, `→ ${dest}`);
+}
+function irA(id) {
+  const n = document.getElementById(id);
+  if (!n) return;
+  n.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
+  n.classList.remove("destello"); void n.offsetWidth; n.classList.add("destello");
+}
+
+// ---------- mapa general (SVG) ----------
+function dibujarMapa() {
+  const svg = document.getElementById("mapa");
+  const X0 = 30, ANCHO = 170, PASO = 280, ARRIBA = 140, ABAJO = 470;
+  const xIzq = (id) => X0 + CARRIL[id].i * PASO, xCen = (id) => xIzq(id) + ANCHO / 2, xDer = (id) => xIzq(id) + ANCHO;
+  const defs = s("defs");
+  for (const id of ["emperador", "oscura", "luz", "exilio", "llave"]) {
+    const m = s("marker", { id: `pt-${id}`, viewBox: "0 0 10 10", refX: 9, refY: 5, markerWidth: 7, markerHeight: 7, orient: "auto-start-reverse" });
+    m.append(s("path", { d: "M0,0 L10,5 L0,10 z", style: `fill:${color(id)}` }));
+    defs.append(m);
+  }
+  svg.append(defs);
+  const linea = (d, id, punteada) => {
+    svg.append(s("path", { d, fill: "none", style: "stroke:var(--superficie)", "stroke-width": 7 }));
+    svg.append(s("path", { d, fill: "none", style: `stroke:${color(id)}`, "stroke-width": 2.2,
+      "stroke-dasharray": punteada ? "6 4" : "none", "marker-end": `url(#pt-${id})` }));
+  };
+  // las etiquetas llevan un rectángulo de fondo: así las líneas no se asoman entre palabra y palabra
+  const conFondo = (t) => {
+    svg.append(t);
+    const b = t.getBBox();
+    svg.insertBefore(s("rect", { x: b.x - 4, y: b.y - 1, width: b.width + 8, height: b.height + 2, rx: 4,
+      style: "fill:var(--superficie)" }), t);
+  };
+  const texto = (x, y, t, extra) => conFondo(s("text", Object.assign({ x, y, "font-size": 12, "text-anchor": "middle" }, extra || {}), t));
+  // etiqueta de una lista de opciones: dos por renglón, las de llave en dorado
+  const etiquetaOpciones = (x, yAbajo, lista) => {
+    const renglones = [];
+    for (let i = 0; i < lista.length; i += 2) renglones.push(lista.slice(i, i + 2));
+    renglones.forEach((r, k) => {
+      const t = s("text", { x, y: yAbajo - (renglones.length - 1 - k) * 15, "font-size": 12, "text-anchor": "middle" });
+      r.forEach((o, j) => {
+        if (j) t.append(s("tspan", { class: "tenue" }, " · "));
+        t.append(s("tspan", o.llave ? { style: "fill:var(--llave);font-weight:700" } : {}, o.id));
+      });
+      conFondo(t);
+    });
+  };
+
+  // carriles
+  for (const c of D.carriles) {
+    const x = xIzq(c.id);
+    svg.append(s("rect", { x, y: ARRIBA, width: ANCHO, height: ABAJO - ARRIBA, rx: 12,
+      style: `fill:var(--superficie-2);stroke:${color(c.id)}`, "stroke-width": 2 }));
+    svg.append(s("rect", { x, y: ARRIBA, width: ANCHO, height: 6, rx: 3, style: `fill:${color(c.id)}` }));
+    svg.append(s("text", { x: x + 12, y: ARRIBA + 30, "font-size": 16, "font-weight": 700, style: `fill:${color(c.id)}` }, c.nombre));
+    svg.append(s("text", { x: x + 12, y: ARRIBA + 48, "font-size": 12, class: "tenue" }, `${c.rango} · ${c.fichas} fichas`));
+    c.momentos.forEach((m, k) => svg.append(s("text", { x: x + 12, y: ARRIBA + 78 + k * 20, "font-size": 12.5 }, `${k + 1}. ${m}`)));
+  }
+  // finales dentro de cada carril
+  const finalesPorCarril = {};
+  for (const f of Object.values(D.finales)) if (CARRIL[f.carril]) (finalesPorCarril[f.carril] = finalesPorCarril[f.carril] || []).push(f);
+  for (const [carril, lista] of Object.entries(finalesPorCarril)) {
+    const grandes = lista.filter((f) => f.id.startsWith("FINAL")), chicos = lista.filter((f) => f.id.startsWith("FP"));
+    const ancho = (ANCHO - 16 - (grandes.length - 1) * 8) / grandes.length;
+    grandes.forEach((f, k) => cajaFinal(f, xIzq(carril) + 8 + k * (ancho + 8), 390, ancho, 66));
+    chicos.forEach((f) => cajaFinal(f, xIzq(carril) + 8, 352, ANCHO - 16, 28));
+  }
+  function cajaFinal(f, x, y, ancho, alto) {
+    const g = s("g", { class: "fin", tabindex: 0, role: "button", "aria-label": `${f.id}: ${f.nombre}` });
+    g.addEventListener("click", () => elegirRuta(f.id, true));
+    g.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); elegirRuta(f.id, true); } });
+    g.append(s("rect", { x, y, width: ancho, height: alto, rx: 8, style: `fill:var(--superficie);stroke:${color(f.carril)}`, "stroke-width": 1.5 }));
+    if (alto < 40) {
+      g.append(s("text", { x: x + ancho / 2, y: y + 18, "font-size": 11.5, "text-anchor": "middle" }, `${f.id} · ${f.nombre}`));
+    } else {
+      g.append(s("text", { x: x + ancho / 2, y: y + 20, "font-size": 12, "font-weight": 800, "text-anchor": "middle", style: `fill:${color(f.carril)}` }, f.id));
+      partir(f.nombre, 13).forEach((r, k) => g.append(s("text", { x: x + ancho / 2, y: y + 38 + k * 14, "font-size": 11.5, "text-anchor": "middle" }, r)));
+    }
+    svg.append(g);
+  }
+
+  // salidas de D273
+  const d273 = D.fichas.D273, xo = xCen("oscura");
+  svg.append(s("rect", { x: xo - 110, y: 16, width: 220, height: 56, rx: 10, style: "fill:var(--superficie);stroke:var(--tinta)", "stroke-width": 1.5 }));
+  svg.append(s("text", { x: xo, y: 38, "font-size": 14, "font-weight": 800, "text-anchor": "middle" }, "D273 · La revelación"));
+  svg.append(s("text", { x: xo, y: 58, "font-size": 12, "text-anchor": "middle", class: "tenue" }, "Palpatine confiesa que es Sith"));
+  for (const o of d273.opciones) {
+    const c = carrilDe(o.destino), xd = xCen(c);
+    const desde = c === "oscura" ? xo : (xd < xo ? xo - 70 : xo + 70);
+    const d = c === "oscura" ? `M${xo},72 L${xo},${ARRIBA - 4}` : `M${desde},72 C${desde},110 ${xd},96 ${xd},${ARRIBA - 4}`;
+    linea(d, c);
+    const etiqueta = `${o.letra}${o.canon ? " ★" : ""} · ${o.condicion ? o.condicion.replace("requiere ", "") : "sin llave"}`;
+    const xt = c === "oscura" ? xo + 8 : (xd + desde) / 2, anchor = c === "oscura" ? "start" : "middle";
+    texto(xt, c === "oscura" ? 112 : 102, etiqueta, o.condicion ? { "text-anchor": anchor, style: "fill:var(--llave);font-weight:700" } : { "text-anchor": anchor });
+  }
+
+  // cambios de carril (sin contar D273)
+  const pares = {};
+  for (const f of Object.values(D.fichas)) {
+    if (f.id === "D273") continue;
+    for (const o of f.opciones) {
+      const c = carrilDe(o.destino);
+      if (c && CARRIL[c] && c !== f.carril) (pares[`${f.carril}>${c}`] = pares[`${f.carril}>${c}`] || []).push({ id: `${f.id} ${o.letra}`, llave: !!o.condicion });
+    }
+  }
+  // vecinos: flecha horizontal en el hueco entre carriles; lejanos: arco por debajo
+  const ALTURA_HUECO = { "oscura>emperador": 300, "oscura>luz": 330, "luz>exilio": 262, "exilio>luz": 345 };
+  const ARCOS = { "exilio>oscura": [500, -30, 30], "oscura>exilio": [530, -10, 0], "emperador>luz": [560, 30, 0], "emperador>exilio": [590, -10, 30] };
+  for (const [par, lista] of Object.entries(pares)) {
+    const [a, b] = par.split(">"), destinoColor = b;
+    if (Math.abs(CARRIL[a].i - CARRIL[b].i) === 1) {
+      const y = ALTURA_HUECO[par] || 300, izqADer = CARRIL[a].i < CARRIL[b].i;
+      const x1 = izqADer ? xDer(a) : xIzq(a), x2 = izqADer ? xIzq(b) : xDer(b);
+      linea(`M${x1},${y} L${x2 + (izqADer ? -3 : 3)},${y}`, destinoColor);
+      etiquetaOpciones((x1 + x2) / 2, y - 8, lista);
+    } else {
+      const [prof, dxa, dxb] = ARCOS[par] || [600, 0, 0];
+      const x1 = xCen(a) + dxa, x2 = xCen(b) + dxb;
+      linea(`M${x1},${ABAJO} L${x1},${prof - 8} Q${x1},${prof} ${x1 + Math.sign(x2 - x1) * 8},${prof} L${x2 - Math.sign(x2 - x1) * 8},${prof} Q${x2},${prof} ${x2},${prof - 8} L${x2},${ABAJO + 4}`, destinoColor, true);
+      const xs = { "exilio>oscura": 800, "oscura>exilio": 830, "emperador>luz": 255, "emperador>exilio": 520 }[par] || (x1 + x2) / 2;
+      etiquetaOpciones(xs, prof - 5, lista);
+    }
+  }
+}
+function partir(texto, max) {
+  const renglones = [];
+  let actual = "";
+  for (const palabra of texto.split(" ")) {
+    if ((actual + " " + palabra).trim().length > max && actual) { renglones.push(actual); actual = palabra; }
+    else actual = (actual + " " + palabra).trim();
+  }
+  if (actual) renglones.push(actual);
+  return renglones.slice(0, 2);
+}
+
+// ---------- tarjetas de finales ----------
+function dibujarFinales() {
+  const caja = document.getElementById("finales");
+  for (const f of Object.values(D.finales)) {
+    if (!f.id.startsWith("FINAL") && f.id !== "FP5") continue;
+    const ruta = D.rutas[f.id];
+    const linea = f.carril === "prematuro" ? "Final prematuro" : `Línea ${CARRIL[f.carril].nombre.split(" · ")[0].toLowerCase()}`;
+    caja.append(el("article", { class: `final c-${f.carril}`, id: `final-${f.id.replace(" ", "-")}` },
+      el("div", { class: "etiqueta" }, `${f.id} · ${linea}${f.canon ? " · canon" : ""}`),
+      el("h3", {}, f.nombre),
+      el("p", {}, f.texto || f.llega),
+      ruta ? el("p", { class: "tenue" }, el("b", {}, "Cómo llegar: "), ruta.otras) : null,
+      f.variantes.length ? el("ul", {}, ...f.variantes.map((v) => el("li", {}, v))) : null,
+      ruta ? el("button", { class: "ver", type: "button", onclick: () => elegirRuta(f.id, true) }, "Ver la ruta ficha por ficha") : null));
+  }
+  const cuerpo = document.querySelector("#prematuros tbody");
+  for (const f of Object.values(D.finales)) {
+    if (!f.id.startsWith("FP")) continue;
+    const desde = (f.desde || []).map((o) => `${o.ficha} ${o.letra} (${o.titulo})`).join(", ");
+    cuerpo.append(el("tr", { id: `final-${f.id}` }, el("td", {}, el("b", {}, f.id), ` · ${f.nombre}`), el("td", {}, desde), el("td", {}, f.llega)));
+  }
+}
+
+// ---------- explorador ficha por ficha ----------
+function dibujarCarriles() {
+  const caja = document.getElementById("carriles");
+  for (const c of D.carriles) {
+    const col = el("section", { class: `carril c-${c.id}` }, el("h3", {}, `${c.nombre} · ${c.rango}`));
+    for (const f of Object.values(D.fichas).filter((x) => x.carril === c.id)) {
+      const tarjeta = el("article", { class: `ficha c-${c.id}`, id: `f-${f.id}`, "data-ficha": f.id },
+        el("h4", {}, `${f.id} · ${f.titulo}`), el("div", { class: "juega" }, `Juega: ${f.juega}`));
+      for (const o of f.opciones) {
+        const detalle = el("div", { class: "detalle" },
+          o.condicion ? el("span", { class: "llave" }, o.condicion) : null,
+          o.efectos.length ? el("span", { class: "efectos" }, o.efectos.join(" · ")) : null,
+          o.destino ? enlaceDestino(o.destino) : null);
+        tarjeta.append(el("div", { class: "opcion", "data-letra": o.letra },
+          el("span", { class: "letra" }, o.letra, o.canon ? el("span", { class: "estrella", title: "canon" }, "★") : null),
+          el("span", {}, o.texto, o.nota ? el("span", { class: "tenue" }, ` (${o.nota})`) : null),
+          detalle));
+      }
+      col.append(tarjeta);
+    }
+    caja.append(col);
+  }
+  const filtros = document.getElementById("filtros");
+  filtros.append(el("button", { type: "button", class: "activo", "data-final": "", onclick: () => elegirRuta(null) }, "Ninguna"));
+  for (const id of Object.keys(D.rutas))
+    filtros.append(el("button", { type: "button", class: `c-${D.finales[id].carril}`, "data-final": id, onclick: () => elegirRuta(id) }, id));
+}
+
+function elegirRuta(id, desplazar) {
+  document.querySelectorAll("#filtros button").forEach((b) => b.classList.toggle("activo", (b.dataset.final || null) === id));
+  document.querySelectorAll(".final").forEach((f) => f.classList.toggle("activo", id && f.id === `final-${id.replace(" ", "-")}`));
+  const caja = document.getElementById("ruta");
+  document.querySelectorAll(".ficha").forEach((n) => { n.classList.remove("atenuada", "en-ruta"); });
+  document.querySelectorAll(".opcion").forEach((n) => n.classList.remove("atenuada", "elegida"));
+  caja.replaceChildren();
+  caja.classList.toggle("visible", !!id);
+  if (!id) return;
+  const ruta = D.rutas[id], f = D.finales[id], elegidas = new Map(ruta.pasos);
+  document.querySelectorAll(".ficha").forEach((n) => {
+    const ficha = n.dataset.ficha;
+    if (!elegidas.has(ficha)) { n.classList.add("atenuada"); return; }
+    n.classList.add("en-ruta");
+    n.querySelectorAll(".opcion").forEach((o) => o.classList.add(o.dataset.letra === elegidas.get(ficha) ? "elegida" : "atenuada"));
+  });
+  const pasos = el("div", { class: "pasos" });
+  ruta.pasos.forEach(([ficha, letra], k) => {
+    const o = D.fichas[ficha].opciones.find((x) => x.letra === letra);
+    if (k) pasos.append(el("span", { class: "flecha" }, "→"));
+    pasos.append(el("a", { class: `paso${o.condicion ? " con-llave" : ""}`, href: `#f-${ficha}`, title: `${D.fichas[ficha].titulo}: ${o.texto}${o.condicion ? " (" + o.condicion + ")" : ""}`,
+      onclick: (e) => { e.preventDefault(); irA(`f-${ficha}`); } }, `${ficha} ${letra}`));
+  });
+  pasos.append(el("span", { class: "flecha" }, "→"), el("b", { class: `c-${f.carril}`, style: "color:var(--c)" }, `${id} · ${f.nombre}`));
+  const llaves = ruta.pasos.map(([ficha, letra]) => [ficha, D.fichas[ficha].opciones.find((x) => x.letra === letra)]).filter(([, o]) => o.condicion);
+  caja.append(el("div", {}, el("b", {}, `Ruta de ejemplo a ${id}`), el("span", { class: "tenue" }, ` · ${ruta.pasos.length} decisiones`)), pasos,
+    el("div", { class: "tenue" }, ...(llaves.length
+      ? ["Llaves en esta ruta: ", ...llaves.flatMap(([ficha, o], k) => [k ? " " : "", el("span", { class: "llave" }, `${ficha} ${o.letra}: ${o.condicion}`)])]
+      : ["Esta ruta no necesita llaves."])),
+    el("p", { class: "tenue", style: "margin:6px 0 0" }, ruta.otras));
+  if (desplazar) document.getElementById("explorador").scrollIntoView({ behavior: "smooth" });
+}
+
+dibujarMapa();
+dibujarFinales();
+dibujarCarriles();
+document.getElementById("pie").textContent =
+  `Generado de Historia.md el ${D.generado} con docs/generar_mapa_finales.py. Si cambia el guion, se vuelve a correr el script.`;
+</script>
+</body>
+</html>

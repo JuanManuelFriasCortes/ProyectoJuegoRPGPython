@@ -1,0 +1,482 @@
+{
+  "anakin_skywalker": {
+    "nombre": "Anakin Skywalker",
+    "sprite": "sprites/anakin_skywalker.png",
+    "sprite_1x": "sprites_1x/anakin_skywalker.png"
+  },
+  "ahsoka_tano": {
+    "nombre": "Ahsoka Tano",
+    "sprite": "sprites/ahsoka_tano.png",
+    "sprite_1x": "sprites_1x/ahsoka_tano.png"
+  },
+  "obi_wan_kenobi": {
+    "nombre": "Obi-Wan Kenobi",
+    "sprite": "sprites/obi_wan_kenobi.png",
+    "sprite_1x": "sprites_1x/obi_wan_kenobi.png"
+  },
+  "padme_amidala": {
+    "nombre": "Padmé Amidala",
+    "sprite": "sprites/padme_amidala.png",
+    "sprite_1x": "sprites_1x/padme_amidala.png"
+  },
+  "capitan_rex": {
+    "nombre": "Capitán Rex",
+    "sprite": "sprites/capitan_rex.png",
+    "sprite_1x": "sprites_1x/capitan_rex.png"
+  },
+  "yoda": {
+    "nombre": "Maestro Yoda",
+    "sprite": "sprites/yoda.png",
+    "sprite_1x": "sprites_1x/yoda.png"
+  },
+  "general_grievous": {
+    "nombre": "General Grievous",
+    "sprite": "sprites/general_grievous.png",
+    "sprite_1x": "sprites_1x/general_grievous.png"
+  },
+  "r2d2": {
+    "nombre": "R2-D2",
+    "sprite": "sprites/r2d2.png",
+    "sprite_1x": "sprites_1x/r2d2.png"
+  },
+  "fives": {
+    "nombre": "Fives",
+    "sprite": "sprites/fives.png",
+    "sprite_1x": "sprites_1x/fives.png"
+  },
+  "echo": {
+    "nombre": "Echo",
+    "sprite": "sprites/echo.png",
+    "sprite_1x": "sprites_1x/echo.png"
+  },
+  "comandante_cody": {
+    "nombre": "Comandante Cody",
+    "sprite": "sprites/comandante_cody.png",
+    "sprite_1x": "sprites_1x/comandante_cody.png"
+  },
+  "waxer": {
+    "nombre": "Waxer",
+    "sprite": "sprites/waxer.png",
+    "sprite_1x": "sprites_1x/waxer.png"
+  },
+  "boil": {
+    "nombre": "Boil",
+    "sprite": "sprites/boil.png",
+    "sprite_1x": "sprites_1x/boil.png"
+  },
+  "hevy": {
+    "nombre": "Hevy",
+    "sprite": "sprites/hevy.png",
+    "sprite_1x": "sprites_1x/hevy.png"
+  },
+  "axe": {
+    "nombre": "Axe",
+    "sprite": "sprites/axe.png",
+    "sprite_1x": "sprites_1x/axe.png"
+  },
+  "hardcase": {
+    "nombre": "Hardcase",
+    "sprite": "sprites/hardcase.png",
+    "sprite_1x": "sprites_1x/hardcase.png"
+  },
+  "jesse": {
+    "nombre": "Jesse",
+    "sprite": "sprites/jesse.png",
+    "sprite_1x": "sprites_1x/jesse.png"
+  },
+  "dogma": {
+    "nombre": "Dogma",
+    "sprite": "sprites/dogma.png",
+    "sprite_1x": "sprites_1x/dogma.png"
+  },
+  "kix": {
+    "nombre": "Kix",
+    "sprite": "sprites/kix.png",
+    "sprite_1x": "sprites_1x/kix.png"
+  },
+  "tup": {
+    "nombre": "Tup",
+    "sprite": "sprites/tup.png",
+    "sprite_1x": "sprites_1x/tup.png"
+  },
+  "comandante_fox": {
+    "nombre": "Comandante Fox",
+    "sprite": "sprites/comandante_fox.png",
+    "sprite_1x": "sprites_1x/comandante_fox.png"
+  },
+  "noventa_y_nueve": {
+    "nombre": "99",
+    "sprite": "sprites/noventa_y_nueve.png",
+    "sprite_1x": "sprites_1x/noventa_y_nueve.png"
+  },
+  "tech": {
+    "nombre": "Tech",
+    "sprite": "sprites/tech.png",
+    "sprite_1x": "sprites_1x/tech.png"
+  },
+  "hunter": {
+    "nombre": "Hunter",
+    "sprite": "sprites/hunter.png",
+    "sprite_1x": "sprites_1x/hunter.png"
+  },
+  "wrecker": {
+    "nombre": "Wrecker",
+    "sprite": "sprites/wrecker.png",
+    "sprite_1x": "sprites_1x/wrecker.png"
+  },
+  "crosshair": {
+    "nombre": "Crosshair",
+    "sprite": "sprites/crosshair.png",
+    "sprite_1x": "sprites_1x/crosshair.png"
+  },
+  "echo_ciborg": {
+    "nombre": "Echo (cíborg)",
+    "sprite": "sprites/echo_ciborg.png",
+    "sprite_1x": "sprites_1x/echo_ciborg.png"
+  },
+  "mace_windu": {
+    "nombre": "Mace Windu",
+    "sprite": "sprites/mace_windu.png",
+    "sprite_1x": "sprites_1x/mace_windu.png"
+  },
+  "plo_koon": {
+    "nombre": "Plo Koon",
+    "sprite": "sprites/plo_koon.png",
+    "sprite_1x": "sprites_1x/plo_koon.png"
+  },
+  "kit_fisto": {
+    "nombre": "Kit Fisto",
+    "sprite": "sprites/kit_fisto.png",
+    "sprite_1x": "sprites_1x/kit_fisto.png"
+  },
+  "ki_adi_mundi": {
+    "nombre": "Ki-Adi-Mundi",
+    "sprite": "sprites/ki_adi_mundi.png",
+    "sprite_1x": "sprites_1x/ki_adi_mundi.png"
+  },
+  "jocasta_nu": {
+    "nombre": "Jocasta Nu",
+    "sprite": "sprites/jocasta_nu.png",
+    "sprite_1x": "sprites_1x/jocasta_nu.png"
+  },
+  "even_piell": {
+    "nombre": "Even Piell",
+    "sprite": "sprites/even_piell.png",
+    "sprite_1x": "sprites_1x/even_piell.png"
+  },
+  "shaak_ti": {
+    "nombre": "Shaak Ti",
+    "sprite": "sprites/shaak_ti.png",
+    "sprite_1x": "sprites_1x/shaak_ti.png"
+  },
+  "luminara_unduli": {
+    "nombre": "Luminara Unduli",
+    "sprite": "sprites/luminara_unduli.png",
+    "sprite_1x": "sprites_1x/luminara_unduli.png"
+  },
+  "barriss_offee": {
+    "nombre": "Barriss Offee",
+    "sprite": "sprites/barriss_offee.png",
+    "sprite_1x": "sprites_1x/barriss_offee.png"
+  },
+  "quinlan_vos": {
+    "nombre": "Quinlan Vos",
+    "sprite": "sprites/quinlan_vos.png",
+    "sprite_1x": "sprites_1x/quinlan_vos.png"
+  },
+  "depa_billaba": {
+    "nombre": "Depa Billaba",
+    "sprite": "sprites/depa_billaba.png",
+    "sprite_1x": "sprites_1x/depa_billaba.png"
+  },
+  "tiplar": {
+    "nombre": "Tiplar",
+    "sprite": "sprites/tiplar.png",
+    "sprite_1x": "sprites_1x/tiplar.png"
+  },
+  "caleb_dume": {
+    "nombre": "Caleb Dume",
+    "sprite": "sprites/caleb_dume.png",
+    "sprite_1x": "sprites_1x/caleb_dume.png"
+  },
+  "kalifa": {
+    "nombre": "Kalifa",
+    "sprite": "sprites/kalifa.png",
+    "sprite_1x": "sprites_1x/kalifa.png"
+  },
+  "canciller_palpatine": {
+    "nombre": "Canciller Palpatine",
+    "sprite": "sprites/canciller_palpatine.png",
+    "sprite_1x": "sprites_1x/canciller_palpatine.png"
+  },
+  "darth_sidious": {
+    "nombre": "Darth Sidious",
+    "sprite": "sprites/darth_sidious.png",
+    "sprite_1x": "sprites_1x/darth_sidious.png"
+  },
+  "conde_dooku": {
+    "nombre": "Conde Dooku",
+    "sprite": "sprites/conde_dooku.png",
+    "sprite_1x": "sprites_1x/conde_dooku.png"
+  },
+  "darth_vader": {
+    "nombre": "Darth Vader",
+    "sprite": "sprites/darth_vader.png",
+    "sprite_1x": "sprites_1x/darth_vader.png"
+  },
+  "maul": {
+    "nombre": "Maul",
+    "sprite": "sprites/maul.png",
+    "sprite_1x": "sprites_1x/maul.png"
+  },
+  "savage_opress": {
+    "nombre": "Savage Opress",
+    "sprite": "sprites/savage_opress.png",
+    "sprite_1x": "sprites_1x/savage_opress.png"
+  },
+  "madre_talzin": {
+    "nombre": "Madre Talzin",
+    "sprite": "sprites/madre_talzin.png",
+    "sprite_1x": "sprites_1x/madre_talzin.png"
+  },
+  "asajj_ventress": {
+    "nombre": "Asajj Ventress",
+    "sprite": "sprites/asajj_ventress.png",
+    "sprite_1x": "sprites_1x/asajj_ventress.png"
+  },
+  "cad_bane": {
+    "nombre": "Cad Bane",
+    "sprite": "sprites/cad_bane.png",
+    "sprite_1x": "sprites_1x/cad_bane.png"
+  },
+  "aurra_sing": {
+    "nombre": "Aurra Sing",
+    "sprite": "sprites/aurra_sing.png",
+    "sprite_1x": "sprites_1x/aurra_sing.png"
+  },
+  "boba_fett": {
+    "nombre": "Boba Fett",
+    "sprite": "sprites/boba_fett.png",
+    "sprite_1x": "sprites_1x/boba_fett.png"
+  },
+  "hondo_ohnaka": {
+    "nombre": "Hondo Ohnaka",
+    "sprite": "sprites/hondo_ohnaka.png",
+    "sprite_1x": "sprites_1x/hondo_ohnaka.png"
+  },
+  "wilhuff_tarkin": {
+    "nombre": "Wilhuff Tarkin",
+    "sprite": "sprites/wilhuff_tarkin.png",
+    "sprite_1x": "sprites_1x/wilhuff_tarkin.png"
+  },
+  "pong_krell": {
+    "nombre": "Pong Krell",
+    "sprite": "sprites/pong_krell.png",
+    "sprite_1x": "sprites_1x/pong_krell.png"
+  },
+  "rush_clovis": {
+    "nombre": "Rush Clovis",
+    "sprite": "sprites/rush_clovis.png",
+    "sprite_1x": "sprites_1x/rush_clovis.png"
+  },
+  "nute_gunray": {
+    "nombre": "Nute Gunray",
+    "sprite": "sprites/nute_gunray.png",
+    "sprite_1x": "sprites_1x/nute_gunray.png"
+  },
+  "jabba_el_hutt": {
+    "nombre": "Jabba el Hutt",
+    "sprite": "sprites/jabba_el_hutt.png",
+    "sprite_1x": "sprites_1x/jabba_el_hutt.png"
+  },
+  "rotta": {
+    "nombre": "Rotta",
+    "sprite": "sprites/rotta.png",
+    "sprite_1x": "sprites_1x/rotta.png"
+  },
+  "ziro_el_hutt": {
+    "nombre": "Ziro el Hutt",
+    "sprite": "sprites/ziro_el_hutt.png",
+    "sprite_1x": "sprites_1x/ziro_el_hutt.png"
+  },
+  "r3s6": {
+    "nombre": "R3-S6",
+    "sprite": "sprites/r3s6.png",
+    "sprite_1x": "sprites_1x/r3s6.png"
+  },
+  "c3po": {
+    "nombre": "C-3PO",
+    "sprite": "sprites/c3po.png",
+    "sprite_1x": "sprites_1x/c3po.png"
+  },
+  "az3": {
+    "nombre": "AZ-3",
+    "sprite": "sprites/az3.png",
+    "sprite_1x": "sprites_1x/az3.png"
+  },
+  "tx20": {
+    "nombre": "TX-20",
+    "sprite": "sprites/tx20.png",
+    "sprite_1x": "sprites_1x/tx20.png"
+  },
+  "whorm_loathsom": {
+    "nombre": "Almirante Whorm Loathsom",
+    "sprite": "sprites/whorm_loathsom.png",
+    "sprite_1x": "sprites_1x/whorm_loathsom.png"
+  },
+  "wat_tambor": {
+    "nombre": "Wat Tambor",
+    "sprite": "sprites/wat_tambor.png",
+    "sprite_1x": "sprites_1x/wat_tambor.png"
+  },
+  "poggle_el_menor": {
+    "nombre": "Poggle el Menor",
+    "sprite": "sprites/poggle_el_menor.png",
+    "sprite_1x": "sprites_1x/poggle_el_menor.png"
+  },
+  "reina_karina": {
+    "nombre": "Reina Karina la Grande",
+    "sprite": "sprites/reina_karina.png",
+    "sprite_1x": "sprites_1x/reina_karina.png"
+  },
+  "satine_kryze": {
+    "nombre": "Duquesa Satine Kryze",
+    "sprite": "sprites/satine_kryze.png",
+    "sprite_1x": "sprites_1x/satine_kryze.png"
+  },
+  "bo_katan_kryze": {
+    "nombre": "Bo-Katan Kryze",
+    "sprite": "sprites/bo_katan_kryze.png",
+    "sprite_1x": "sprites_1x/bo_katan_kryze.png"
+  },
+  "tal_merrik": {
+    "nombre": "Senador Tal Merrik",
+    "sprite": "sprites/tal_merrik.png",
+    "sprite_1x": "sprites_1x/tal_merrik.png"
+  },
+  "lux_bonteri": {
+    "nombre": "Lux Bonteri",
+    "sprite": "sprites/lux_bonteri.png",
+    "sprite_1x": "sprites_1x/lux_bonteri.png"
+  },
+  "saw_gerrera": {
+    "nombre": "Saw Gerrera",
+    "sprite": "sprites/saw_gerrera.png",
+    "sprite_1x": "sprites_1x/saw_gerrera.png"
+  },
+  "steela_gerrera": {
+    "nombre": "Steela Gerrera",
+    "sprite": "sprites/steela_gerrera.png",
+    "sprite_1x": "sprites_1x/steela_gerrera.png"
+  },
+  "cham_syndulla": {
+    "nombre": "Cham Syndulla",
+    "sprite": "sprites/cham_syndulla.png",
+    "sprite_1x": "sprites_1x/cham_syndulla.png"
+  },
+  "numa": {
+    "nombre": "Numa",
+    "sprite": "sprites/numa.png",
+    "sprite_1x": "sprites_1x/numa.png"
+  },
+  "mina_bonteri": {
+    "nombre": "Senadora Mina Bonteri",
+    "sprite": "sprites/mina_bonteri.png",
+    "sprite_1x": "sprites_1x/mina_bonteri.png"
+  },
+  "reina_miraj_scintel": {
+    "nombre": "Reina Miraj Scintel",
+    "sprite": "sprites/reina_miraj_scintel.png",
+    "sprite_1x": "sprites_1x/reina_miraj_scintel.png"
+  },
+  "moralo_eval": {
+    "nombre": "Moralo Eval",
+    "sprite": "sprites/moralo_eval.png",
+    "sprite_1x": "sprites_1x/moralo_eval.png"
+  },
+  "letta_turmond": {
+    "nombre": "Letta Turmond",
+    "sprite": "sprites/letta_turmond.png",
+    "sprite_1x": "sprites_1x/letta_turmond.png"
+  },
+  "bail_organa": {
+    "nombre": "Senador Bail Organa",
+    "sprite": "sprites/bail_organa.png",
+    "sprite_1x": "sprites_1x/bail_organa.png"
+  },
+  "mon_mothma": {
+    "nombre": "Senadora Mon Mothma",
+    "sprite": "sprites/mon_mothma.png",
+    "sprite_1x": "sprites_1x/mon_mothma.png"
+  },
+  "nala_se": {
+    "nombre": "Nala Se",
+    "sprite": "sprites/nala_se.png",
+    "sprite_1x": "sprites_1x/nala_se.png"
+  },
+  "lama_su": {
+    "nombre": "Lama Su",
+    "sprite": "sprites/lama_su.png",
+    "sprite_1x": "sprites_1x/lama_su.png"
+  },
+  "thrawn": {
+    "nombre": "Thrawn",
+    "sprite": "sprites/thrawn.png",
+    "sprite_1x": "sprites_1x/thrawn.png"
+  },
+  "trace_martez": {
+    "nombre": "Trace Martez",
+    "sprite": "sprites/trace_martez.png",
+    "sprite_1x": "sprites_1x/trace_martez.png"
+  },
+  "rafa_martez": {
+    "nombre": "Rafa Martez",
+    "sprite": "sprites/rafa_martez.png",
+    "sprite_1x": "sprites_1x/rafa_martez.png"
+  },
+  "garnac": {
+    "nombre": "Garnac",
+    "sprite": "sprites/garnac.png",
+    "sprite_1x": "sprites_1x/garnac.png"
+  },
+  "gha_nachkt": {
+    "nombre": "Gha Nachkt",
+    "sprite": "sprites/gha_nachkt.png",
+    "sprite_1x": "sprites_1x/gha_nachkt.png"
+  },
+  "chewbacca": {
+    "nombre": "Chewbacca",
+    "sprite": "sprites/chewbacca.png",
+    "sprite_1x": "sprites_1x/chewbacca.png"
+  },
+  "el_padre": {
+    "nombre": "El Padre (Mortis)",
+    "sprite": "sprites/el_padre.png",
+    "sprite_1x": "sprites_1x/el_padre.png"
+  },
+  "el_hijo": {
+    "nombre": "El Hijo (Mortis)",
+    "sprite": "sprites/el_hijo.png",
+    "sprite_1x": "sprites_1x/el_hijo.png"
+  },
+  "la_hija": {
+    "nombre": "La Hija (Mortis)",
+    "sprite": "sprites/la_hija.png",
+    "sprite_1x": "sprites_1x/la_hija.png"
+  },
+  "rako_hardeen": {
+    "nombre": "Rako Hardeen",
+    "sprite": "sprites/rako_hardeen.png",
+    "sprite_1x": "sprites_1x/rako_hardeen.png"
+  },
+  "rey_rash": {
+    "nombre": "Rey Sanjay Rash",
+    "sprite": "sprites/rey_rash.png",
+    "sprite_1x": "sprites_1x/rey_rash.png"
+  },
+  "rey_dendup": {
+    "nombre": "Rey Ramsis Dendup",
+    "sprite": "sprites/rey_dendup.png",
+    "sprite_1x": "sprites_1x/rey_dendup.png"
+  }
+}
