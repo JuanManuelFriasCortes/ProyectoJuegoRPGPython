@@ -1,0 +1,566 @@
+{
+ "christophsis": {
+  "nombre": "Christophsis — ciudad de cristal en ruinas",
+  "fondo": "fondos/christophsis.png",
+  "fondo_1x": "fondos_1x/christophsis.png",
+  "fichas": [
+   "D001",
+   "D002",
+   "D003",
+   "D004",
+   "D005",
+   "D006",
+   "D007",
+   "D008"
+  ]
+ },
+ "dunas_tatooine": {
+  "nombre": "Tatooine — mar de dunas",
+  "fondo": "fondos/dunas_tatooine.png",
+  "fondo_1x": "fondos_1x/dunas_tatooine.png",
+  "fichas": [
+   "D016",
+   "D017",
+   "D018",
+   "D024"
+  ]
+ },
+ "oficina_canciller": {
+  "nombre": "Oficina del Canciller",
+  "fondo": "fondos/oficina_canciller.png",
+  "fondo_1x": "fondos_1x/oficina_canciller.png",
+  "fichas": [
+   "D032",
+   "D050",
+   "D066",
+   "D163",
+   "D204",
+   "D212",
+   "D226",
+   "D260",
+   "D273",
+   "D277",
+   "D278",
+   "D279",
+   "D280",
+   "D294",
+   "D298",
+   "D305",
+   "D306"
+  ]
+ },
+ "jungla": {
+  "nombre": "Selva (Wasskah, Onderon, Kaller, Devaron)",
+  "fondo": "fondos/jungla.png",
+  "fondo_1x": "fondos_1x/jungla.png",
+  "fichas": [
+   "D103",
+   "D104",
+   "D124",
+   "D125",
+   "D166",
+   "D167",
+   "D168",
+   "D170",
+   "D171",
+   "D172",
+   "D284"
+  ]
+ },
+ "mustafar": {
+  "nombre": "Mustafar — ríos de lava",
+  "fondo": "fondos/mustafar.png",
+  "fondo_1x": "fondos_1x/mustafar.png",
+  "fichas": [
+   "D063",
+   "D064",
+   "D287",
+   "D291",
+   "D292",
+   "D293"
+  ]
+ },
+ "consejo_jedi": {
+  "nombre": "Cámara del Consejo Jedi",
+  "fondo": "fondos/consejo_jedi.png",
+  "fondo_1x": "fondos_1x/consejo_jedi.png",
+  "fichas": [
+   "D065",
+   "D067",
+   "D086",
+   "D123",
+   "D145",
+   "D156",
+   "D165",
+   "D169",
+   "D175",
+   "D191",
+   "D217",
+   "D218",
+   "D220",
+   "D228",
+   "D261",
+   "D264",
+   "D275",
+   "D285",
+   "D303"
+  ]
+ },
+ "monasterio_teth": {
+  "nombre": "Teth — monasterio B'omarr en el acantilado",
+  "fondo": "fondos/monasterio_teth.png",
+  "fondo_1x": "fondos_1x/monasterio_teth.png",
+  "fichas": [
+   "D009",
+   "D010",
+   "D011",
+   "D012",
+   "D013",
+   "D014"
+  ]
+ },
+ "palacio_hutt": {
+  "nombre": "Palacio de los Hutt (Jabba y Ziro)",
+  "fondo": "fondos/palacio_hutt.png",
+  "fondo_1x": "fondos_1x/palacio_hutt.png",
+  "fichas": [
+   "D019",
+   "D020",
+   "D021",
+   "D022",
+   "D023"
+  ]
+ },
+ "cabina": {
+  "nombre": "Cabina de nave (viajes y hiperespacio)",
+  "fondo": "fondos/cabina.png",
+  "fondo_1x": "fondos_1x/cabina.png",
+  "fichas": [
+   "D015",
+   "D029",
+   "D310"
+  ]
+ },
+ "puente_crucero": {
+  "nombre": "Puente de mando de un crucero de la República",
+  "fondo": "fondos/puente_crucero.png",
+  "fondo_1x": "fondos_1x/puente_crucero.png",
+  "fichas": [
+   "D025",
+   "D036",
+   "D042",
+   "D045",
+   "D118",
+   "D126"
+  ]
+ },
+ "espacio_batalla": {
+  "nombre": "Batalla en el espacio",
+  "fondo": "fondos/espacio_batalla.png",
+  "fondo_1x": "fondos_1x/espacio_batalla.png",
+  "fichas": [
+   "D026",
+   "D028",
+   "D033",
+   "D043",
+   "D250"
+  ]
+ },
+ "pasillo_republica": {
+  "nombre": "Pasillo de nave o base de la República",
+  "fondo": "fondos/pasillo_republica.png",
+  "fondo_1x": "fondos_1x/pasillo_republica.png",
+  "fichas": [
+   "D027",
+   "D044",
+   "D076",
+   "D077",
+   "D144",
+   "D269",
+   "D270",
+   "D281",
+   "D282",
+   "D283",
+   "D300"
+  ]
+ },
+ "pasillo_separatista": {
+  "nombre": "Pasillo de nave separatista",
+  "fondo": "fondos/pasillo_separatista.png",
+  "fondo_1x": "fondos_1x/pasillo_separatista.png",
+  "fichas": [
+   "D030",
+   "D031",
+   "D060",
+   "D061",
+   "D251",
+   "D252",
+   "D253",
+   "D254"
+  ]
+ },
+ "hangar_republica": {
+  "nombre": "Hangar de la República",
+  "fondo": "fondos/hangar_republica.png",
+  "fondo_1x": "fondos_1x/hangar_republica.png",
+  "fichas": [
+   "D037",
+   "D041",
+   "D078",
+   "D184",
+   "D206",
+   "D245"
+  ]
+ },
+ "senado": {
+  "nombre": "Rotonda del Senado Galáctico",
+  "fondo": "fondos/senado.png",
+  "fondo_1x": "fondos_1x/senado.png",
+  "fichas": [
+   "D052",
+   "D053",
+   "D054",
+   "D055",
+   "D099",
+   "D100",
+   "D192",
+   "D193",
+   "D194",
+   "D195",
+   "D210",
+   "D211",
+   "D215",
+   "D227",
+   "D255",
+   "D266",
+   "D296",
+   "D297",
+   "D302",
+   "D308"
+  ]
+ },
+ "departamento_padme": {
+  "nombre": "Departamento de Padmé (noche)",
+  "fondo": "fondos/departamento_padme.png",
+  "fondo_1x": "fondos_1x/departamento_padme.png",
+  "fichas": [
+   "D051",
+   "D071",
+   "D101",
+   "D164",
+   "D209",
+   "D256",
+   "D258",
+   "D276",
+   "D286",
+   "D288",
+   "D290",
+   "D307"
+  ]
+ },
+ "plataforma_coruscant": {
+  "nombre": "Plataforma de aterrizaje en Coruscant",
+  "fondo": "fondos/plataforma_coruscant.png",
+  "fondo_1x": "fondos_1x/plataforma_coruscant.png",
+  "fichas": [
+   "D056",
+   "D146",
+   "D265",
+   "D309"
+  ]
+ },
+ "niveles_bajos": {
+  "nombre": "Niveles bajos de Coruscant",
+  "fondo": "fondos/niveles_bajos.png",
+  "fondo_1x": "fondos_1x/niveles_bajos.png",
+  "fichas": [
+   "D083",
+   "D149",
+   "D173",
+   "D187",
+   "D188",
+   "D189",
+   "D190",
+   "D205",
+   "D207",
+   "D208",
+   "D216",
+   "D246",
+   "D247",
+   "D248"
+  ]
+ },
+ "templo_exterior": {
+  "nombre": "Templo Jedi — fachada y escalinata",
+  "fondo": "fondos/templo_exterior.png",
+  "fondo_1x": "fondos_1x/templo_exterior.png",
+  "fichas": [
+   "D196",
+   "D197"
+  ]
+ },
+ "templo_pasillo": {
+  "nombre": "Templo Jedi — gran salón y archivo",
+  "fondo": "fondos/templo_pasillo.png",
+  "fondo_1x": "fondos_1x/templo_pasillo.png",
+  "fichas": [
+   "D057",
+   "D058",
+   "D059",
+   "D084",
+   "D088",
+   "D094",
+   "D095",
+   "D097",
+   "D105",
+   "D147",
+   "D155",
+   "D162",
+   "D198",
+   "D219",
+   "D225",
+   "D233",
+   "D237",
+   "D257",
+   "D259",
+   "D262",
+   "D274",
+   "D289",
+   "D299"
+  ]
+ },
+ "ciudadela": {
+  "nombre": "Prisión (Ciudadela, Kadavo, celdas)",
+  "fondo": "fondos/ciudadela.png",
+  "fondo_1x": "fondos_1x/ciudadela.png",
+  "fichas": [
+   "D062",
+   "D119",
+   "D120",
+   "D121",
+   "D122",
+   "D141",
+   "D143",
+   "D148",
+   "D181",
+   "D185",
+   "D186"
+  ]
+ },
+ "fabrica_droides": {
+  "nombre": "Fábrica e instalación separatista",
+  "fondo": "fondos/fabrica_droides.png",
+  "fondo_1x": "fondos_1x/fabrica_droides.png",
+  "fichas": [
+   "D034",
+   "D035",
+   "D073",
+   "D240",
+   "D242",
+   "D243",
+   "D244"
+  ]
+ },
+ "geonosis": {
+  "nombre": "Geonosis — agujas de roca",
+  "fondo": "fondos/geonosis.png",
+  "fondo_1x": "fondos_1x/geonosis.png",
+  "fichas": [
+   "D072",
+   "D074",
+   "D075",
+   "D079"
+  ]
+ },
+ "palacio_elegante": {
+  "nombre": "Palacio elegante (Cato Neimoidia, Alderaan, Raxus, Zygerria, Serenno, ópera)",
+  "fondo": "fondos/palacio_elegante.png",
+  "fondo_1x": "fondos_1x/palacio_elegante.png",
+  "fichas": [
+   "D068",
+   "D069",
+   "D070",
+   "D081",
+   "D082",
+   "D096",
+   "D098",
+   "D138",
+   "D139",
+   "D140",
+   "D142",
+   "D150",
+   "D183",
+   "D213",
+   "D214",
+   "D231",
+   "D232",
+   "D263"
+  ]
+ },
+ "palacio_mandalore": {
+  "nombre": "Mandalore — palacio de Sundari",
+  "fondo": "fondos/palacio_mandalore.png",
+  "fondo_1x": "fondos_1x/palacio_mandalore.png",
+  "fichas": [
+   "D080",
+   "D174",
+   "D176",
+   "D177",
+   "D178",
+   "D179",
+   "D180"
+  ]
+ },
+ "kamino": {
+  "nombre": "Kamino — instalaciones de clonación",
+  "fondo": "fondos/kamino.png",
+  "fondo_1x": "fondos_1x/kamino.png",
+  "fichas": [
+   "D089",
+   "D090",
+   "D091",
+   "D092",
+   "D093",
+   "D200",
+   "D201",
+   "D202",
+   "D203",
+   "D295"
+  ]
+ },
+ "dathomir": {
+  "nombre": "Dathomir — selva roja con niebla",
+  "fondo": "fondos/dathomir.png",
+  "fondo_1x": "fondos_1x/dathomir.png",
+  "fichas": [
+   "D102",
+   "D158",
+   "D182"
+  ]
+ },
+ "mortis": {
+  "nombre": "Mortis — el mundo de la Fuerza",
+  "fondo": "fondos/mortis.png",
+  "fondo_1x": "fondos_1x/mortis.png",
+  "fichas": [
+   "D106",
+   "D107",
+   "D108",
+   "D109",
+   "D110",
+   "D111",
+   "D112",
+   "D113",
+   "D114",
+   "D115",
+   "D116",
+   "D117",
+   "D222"
+  ]
+ },
+ "umbara": {
+  "nombre": "Umbara — mundo de sombras",
+  "fondo": "fondos/umbara.png",
+  "fondo_1x": "fondos_1x/umbara.png",
+  "fichas": [
+   "D127",
+   "D128",
+   "D129",
+   "D130",
+   "D131",
+   "D132",
+   "D133",
+   "D134",
+   "D135",
+   "D136"
+  ]
+ },
+ "pueblo_colonia": {
+  "nombre": "Pueblo o colonia (Ryloth, Kiros, Raydonia, Batuu)",
+  "fondo": "fondos/pueblo_colonia.png",
+  "fondo_1x": "fondos_1x/pueblo_colonia.png",
+  "fichas": [
+   "D046",
+   "D047",
+   "D048",
+   "D049",
+   "D137",
+   "D159",
+   "D160",
+   "D161",
+   "D229",
+   "D230",
+   "D238",
+   "D239"
+  ]
+ },
+ "puesto_avanzado": {
+  "nombre": "Puesto avanzado en luna rocosa (Rishi, Florrum, Vanqor)",
+  "fondo": "fondos/puesto_avanzado.png",
+  "fondo_1x": "fondos_1x/puesto_avanzado.png",
+  "fichas": [
+   "D038",
+   "D039",
+   "D040",
+   "D085",
+   "D087",
+   "D157"
+  ]
+ },
+ "moraband": {
+  "nombre": "Moraband — valle de los señores Sith",
+  "fondo": "fondos/moraband.png",
+  "fondo_1x": "fondos_1x/moraband.png",
+  "fichas": [
+   "D223",
+   "D224"
+  ]
+ },
+ "dagobah": {
+  "nombre": "Dagobah — pantano",
+  "fondo": "fondos/dagobah.png",
+  "fondo_1x": "fondos_1x/dagobah.png",
+  "fichas": [
+   "D221"
+  ]
+ },
+ "utapau": {
+  "nombre": "Utapau — ciudad en los sumideros",
+  "fondo": "fondos/utapau.png",
+  "fondo_1x": "fondos_1x/utapau.png",
+  "fichas": [
+   "D234",
+   "D235",
+   "D236",
+   "D271",
+   "D272",
+   "D301"
+  ]
+ },
+ "naboo": {
+  "nombre": "Naboo — Theed y el lago",
+  "fondo": "fondos/naboo.png",
+  "fondo_1x": "fondos_1x/naboo.png",
+  "fichas": [
+   "D151",
+   "D152",
+   "D153",
+   "D154",
+   "D304",
+   "D311",
+   "D312"
+  ]
+ },
+ "campo_batalla": {
+  "nombre": "Campo de batalla en ruinas (Anaxes, Ringo Vinda, asedio de Mandalore)",
+  "fondo": "fondos/campo_batalla.png",
+  "fondo_1x": "fondos_1x/campo_batalla.png",
+  "fichas": [
+   "D199",
+   "D241",
+   "D249",
+   "D267",
+   "D268"
+  ]
+ }
+}

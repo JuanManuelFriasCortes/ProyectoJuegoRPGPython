@@ -15,7 +15,39 @@ Proyecto en parejas:
 
 ## Estado
 
-En planeación. La estructura del código, las dependencias y las instrucciones para ejecutarlo se agregarán aquí conforme avance el desarrollo.
+La historia, el arte, la música y los sonidos están listos. Falta programar el juego.
+
+## Qué hay en el repositorio
+
+| Ruta | Qué es |
+|---|---|
+| `Historia.md` | El guion: 312 fichas de decisión, 6 finales y 5 finales prematuros |
+| `Dialogos.md` | Los diálogos de las fichas que ya los tienen |
+| `assets/historia/` | `historia.json` y `dialogos.json`, los datos que carga el juego, y `FORMATO.md`, que los explica |
+| `assets/personajes/` | 96 personajes en pixel art (normales, oscurecidos y en holograma) |
+| `assets/escenarios/` | 36 fondos, fijos y animados a 10 y a 60 cuadros por segundo |
+| `assets/escenas/` | Quién aparece en cada ficha y dónde |
+| `assets/musica/` | Qué canción suena en cada ficha (los audios no se suben, ver abajo) |
+| `assets/sonidos/` | Las voces que suenan al escribir el texto y los sonidos de la interfaz |
+| `assets/ejemplos/` | Escenas de ejemplo con diálogo, de la etapa de bocetos |
+| `docs/mapa_finales.html` | Mapa de los finales: se abre con doble clic |
+
+Cada carpeta de `assets/` tiene el script de Python que generó su contenido, por si hay que rehacerlo.
+
+## Requisitos
+
+- Python 3.10 o más nuevo
+- `pip install -r requirements.txt` (instala pygame)
+
+## Música
+
+Las canciones son de las películas y no se suben al repositorio. Para tenerlas:
+
+1. Bajar cada canción con el link de YouTube que está en `assets/musica/preparar_musica.py` (lista `PISTAS`).
+2. Dejar los archivos en la carpeta de Descargas.
+3. Correr `python assets/musica/preparar_musica.py --importar`, que las reconoce por su título, las convierte a OGG y las pone en su lugar.
+
+El juego funciona sin música si faltan.
 
 ## Aviso
 

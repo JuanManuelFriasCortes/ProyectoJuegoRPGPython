@@ -1,0 +1,6706 @@
+{
+ "D001": {
+  "titulo": "Las ruinas de cristal",
+  "fondo": "christophsis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D002": {
+  "titulo": "Una padawan inesperada",
+  "fondo": "christophsis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 1090,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D003": {
+  "titulo": "Llamada a Yoda",
+  "fondo": "christophsis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "yoda",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 1090,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D004": {
+  "titulo": "El generador del escudo",
+  "fondo": "christophsis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D005": {
+  "titulo": "Droidekas",
+  "fondo": "christophsis",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D006": {
+  "titulo": "Té con el enemigo",
+  "fondo": "christophsis",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "whorm_loathsom",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D007": {
+  "titulo": "Después de la batalla",
+  "fondo": "christophsis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D008": {
+  "titulo": "Un mensaje privado",
+  "fondo": "christophsis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   }
+  ]
+ },
+ "D009": {
+  "titulo": "El acantilado del monasterio",
+  "fondo": "monasterio_teth",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D010": {
+  "titulo": "El huttlet",
+  "fondo": "monasterio_teth",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rotta",
+    "x": 900,
+    "y_pies": 502,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D011": {
+  "titulo": "La trampa de Ventress",
+  "fondo": "monasterio_teth",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "asajj_ventress",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   },
+   {
+    "clave": "rotta",
+    "x": 640,
+    "y_pies": 502,
+    "escala": 8
+   }
+  ]
+ },
+ "D012": {
+  "titulo": "Las murallas",
+  "fondo": "monasterio_teth",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D013": {
+  "titulo": "Duelo en Teth",
+  "fondo": "monasterio_teth",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "asajj_ventress",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D014": {
+  "titulo": "La Twilight",
+  "fondo": "monasterio_teth",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "r2d2",
+    "x": 900,
+    "y_pies": 524,
+    "escala": 8
+   }
+  ]
+ },
+ "D015": {
+  "titulo": "Rumbo a Tatooine",
+  "fondo": "cabina",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rotta",
+    "x": 950,
+    "y_pies": 502,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   }
+  ]
+ },
+ "D016": {
+  "titulo": "Estrellados en el desierto",
+  "fondo": "dunas_tatooine",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rotta",
+    "x": 640,
+    "y_pies": 502,
+    "escala": 8
+   }
+  ]
+ },
+ "D017": {
+  "titulo": "Dooku en las dunas",
+  "fondo": "dunas_tatooine",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "conde_dooku",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rotta",
+    "x": 640,
+    "y_pies": 502,
+    "escala": 8
+   }
+  ]
+ },
+ "D018": {
+  "titulo": "MagnaGuardias",
+  "fondo": "dunas_tatooine",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D019": {
+  "titulo": "El palacio de Ziro",
+  "fondo": "palacio_hutt",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 260,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "c3po",
+    "x": 1030,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ziro_el_hutt",
+    "x": 640,
+    "y_pies": 532,
+    "escala": 8
+   },
+   {
+    "clave": "conde_dooku",
+    "x": 150,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   }
+  ]
+ },
+ "D020": {
+  "titulo": "Atrapada",
+  "fondo": "palacio_hutt",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 260,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ziro_el_hutt",
+    "x": 640,
+    "y_pies": 532,
+    "escala": 8
+   },
+   {
+    "clave": "c3po",
+    "x": 1030,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D021": {
+  "titulo": "Sin pruebas",
+  "fondo": "palacio_hutt",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 260,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ziro_el_hutt",
+    "x": 640,
+    "y_pies": 532,
+    "escala": 8
+   }
+  ]
+ },
+ "D022": {
+  "titulo": "El trono de Jabba",
+  "fondo": "palacio_hutt",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 260,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rotta",
+    "x": 1030,
+    "y_pies": 502,
+    "escala": 8
+   },
+   {
+    "clave": "jabba_el_hutt",
+    "x": 640,
+    "y_pies": 532,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 440,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D023": {
+  "titulo": "Hutts y República",
+  "fondo": "palacio_hutt",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 260,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "jabba_el_hutt",
+    "x": 640,
+    "y_pies": 532,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 150,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 1030,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D024": {
+  "titulo": "Arena de Tatooine",
+  "fondo": "dunas_tatooine",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D025": {
+  "titulo": "La señal de Plo Koon",
+  "fondo": "puente_crucero",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D026": {
+  "titulo": "La cápsula",
+  "fondo": "espacio_batalla",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "plo_koon",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D027": {
+  "titulo": "Sin sobrevivientes",
+  "fondo": "pasillo_republica",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D028": {
+  "titulo": "Escuadrón Sombra",
+  "fondo": "espacio_batalla",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D029": {
+  "titulo": "El yate de Padmé",
+  "fondo": "cabina",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "c3po",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D030": {
+  "titulo": "A bordo de la Malevolencia",
+  "fondo": "pasillo_separatista",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D031": {
+  "titulo": "Grievous huye",
+  "fondo": "pasillo_separatista",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "general_grievous",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D032": {
+  "titulo": "Felicitaciones del Canciller",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D033": {
+  "titulo": "Bothawui",
+  "fondo": "espacio_batalla",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   }
+  ]
+ },
+ "D034": {
+  "titulo": "El chatarrero",
+  "fondo": "fabrica_droides",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "r3s6",
+    "x": 640,
+    "y_pies": 524,
+    "escala": 8
+   }
+  ]
+ },
+ "D035": {
+  "titulo": "Ahsoka contra Grievous",
+  "fondo": "fabrica_droides",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "general_grievous",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D036": {
+  "titulo": "Sin R2",
+  "fondo": "puente_crucero",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "r3s6",
+    "x": 900,
+    "y_pies": 524,
+    "escala": 8
+   }
+  ]
+ },
+ "D037": {
+  "titulo": "Reunión",
+  "fondo": "hangar_republica",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "r2d2",
+    "x": 900,
+    "y_pies": 524,
+    "escala": 8
+   }
+  ]
+ },
+ "D038": {
+  "titulo": "La luna de Rishi",
+  "fondo": "puesto_avanzado",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "comandante_cody",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "hevy",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "echo",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   },
+   {
+    "clave": "fives",
+    "x": 1090,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D039": {
+  "titulo": "El plan de Rex",
+  "fondo": "puesto_avanzado",
+  "juega": "fives",
+  "personajes": [
+   {
+    "clave": "fives",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "echo",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "hevy",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D040": {
+  "titulo": "Hevy",
+  "fondo": "puesto_avanzado",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "hevy",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "echo",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "fives",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D041": {
+  "titulo": "Los nombres",
+  "fondo": "hangar_republica",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D042": {
+  "titulo": "El mando del escuadrón",
+  "fondo": "puente_crucero",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D043": {
+  "titulo": "Romper el bloqueo",
+  "fondo": "espacio_batalla",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "axe",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D044": {
+  "titulo": "La lección",
+  "fondo": "pasillo_republica",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D045": {
+  "titulo": "La Defensora",
+  "fondo": "puente_crucero",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D046": {
+  "titulo": "Los inocentes",
+  "fondo": "pueblo_colonia",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "tx20",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D047": {
+  "titulo": "Numa",
+  "fondo": "pueblo_colonia",
+  "juega": "waxer",
+  "personajes": [
+   {
+    "clave": "waxer",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "boil",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "numa",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D048": {
+  "titulo": "Cham Syndulla",
+  "fondo": "pueblo_colonia",
+  "juega": "mace_windu",
+  "personajes": [
+   {
+    "clave": "mace_windu",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "cham_syndulla",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D049": {
+  "titulo": "Wat Tambor",
+  "fondo": "pueblo_colonia",
+  "juega": "mace_windu",
+  "personajes": [
+   {
+    "clave": "mace_windu",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "wat_tambor",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "cham_syndulla",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D050": {
+  "titulo": "La mano firme",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D051": {
+  "titulo": "Una noche con Padmé",
+  "fondo": "departamento_padme",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 430,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 820,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D052": {
+  "titulo": "El edificio del Senado",
+  "fondo": "senado",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "cad_bane",
+    "x": 180,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D053": {
+  "titulo": "Las bombas",
+  "fondo": "senado",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "cad_bane",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D054": {
+  "titulo": "El sable",
+  "fondo": "senado",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "cad_bane",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D055": {
+  "titulo": "El Canciller cede",
+  "fondo": "senado",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 210,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   },
+   {
+    "clave": "cad_bane",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D056": {
+  "titulo": "La plataforma",
+  "fondo": "plataforma_coruscant",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "cad_bane",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D057": {
+  "titulo": "Ziro libre",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D058": {
+  "titulo": "Preguntas de padawan",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D059": {
+  "titulo": "Guardia en el Archivo",
+  "fondo": "templo_pasillo",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "jocasta_nu",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D060": {
+  "titulo": "El cristal de memoria",
+  "fondo": "pasillo_separatista",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D061": {
+  "titulo": "Abrir el holocrón",
+  "fondo": "pasillo_separatista",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "cad_bane",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D062": {
+  "titulo": "El interrogatorio",
+  "fondo": "ciudadela",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "cad_bane",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D063": {
+  "titulo": "La instalación de Mustafar",
+  "fondo": "mustafar",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 660,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   }
+  ]
+ },
+ "D064": {
+  "titulo": "El último niño",
+  "fondo": "mustafar",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D065": {
+  "titulo": "El informe",
+  "fondo": "consejo_jedi",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "yoda",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   }
+  ]
+ },
+ "D066": {
+  "titulo": "Los niños de la Fuerza",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D067": {
+  "titulo": "Rush Clovis",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   }
+  ]
+ },
+ "D068": {
+  "titulo": "Cato Neimoidia",
+  "fondo": "palacio_elegante",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rush_clovis",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D069": {
+  "titulo": "El beso",
+  "fondo": "palacio_elegante",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rush_clovis",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D070": {
+  "titulo": "El antídoto",
+  "fondo": "palacio_elegante",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "nute_gunray",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rush_clovis",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D071": {
+  "titulo": "La discusión",
+  "fondo": "departamento_padme",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 430,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 820,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D072": {
+  "titulo": "Punto Lluvia",
+  "fondo": "geonosis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ki_adi_mundi",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "luminara_unduli",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D073": {
+  "titulo": "La fábrica",
+  "fondo": "fabrica_droides",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "barriss_offee",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D074": {
+  "titulo": "Enterradas",
+  "fondo": "geonosis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "luminara_unduli",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D075": {
+  "titulo": "Las catacumbas",
+  "fondo": "geonosis",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "luminara_unduli",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "reina_karina",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D076": {
+  "titulo": "Gusanos cerebrales",
+  "fondo": "pasillo_republica",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "barriss_offee",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D077": {
+  "titulo": "El frío",
+  "fondo": "pasillo_republica",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D078": {
+  "titulo": "Las dudas de Barriss",
+  "fondo": "hangar_republica",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "barriss_offee",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D079": {
+  "titulo": "Poggle el Menor",
+  "fondo": "geonosis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "poggle_el_menor",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   }
+  ]
+ },
+ "D080": {
+  "titulo": "La duquesa",
+  "fondo": "palacio_mandalore",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "satine_kryze",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D081": {
+  "titulo": "El Coronet",
+  "fondo": "palacio_elegante",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "satine_kryze",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D082": {
+  "titulo": "El traidor del Coronet",
+  "fondo": "palacio_elegante",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "tal_merrik",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "satine_kryze",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D083": {
+  "titulo": "La duquesa acusada",
+  "fondo": "niveles_bajos",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "satine_kryze",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D084": {
+  "titulo": "La pregunta",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D085": {
+  "titulo": "Atrapados en Vanqor",
+  "fondo": "puesto_avanzado",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D086": {
+  "titulo": "Boba",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "boba_fett",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   }
+  ]
+ },
+ "D087": {
+  "titulo": "Aurra Sing",
+  "fondo": "puesto_avanzado",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "plo_koon",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "aurra_sing",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "hondo_ohnaka",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D088": {
+  "titulo": "Mace",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D089": {
+  "titulo": "Cadetes *(recuerdo)*",
+  "fondo": "kamino",
+  "juega": "fives",
+  "personajes": [
+   {
+    "clave": "fives",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "echo",
+    "x": 950,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "hevy",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D090": {
+  "titulo": "Ataque a Kamino",
+  "fondo": "kamino",
+  "juega": "fives",
+  "personajes": [
+   {
+    "clave": "fives",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "echo",
+    "x": 950,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "noventa_y_nueve",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D091": {
+  "titulo": "Ventress en Kamino",
+  "fondo": "kamino",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "asajj_ventress",
+    "x": 950,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D092": {
+  "titulo": "ARC",
+  "fondo": "kamino",
+  "juega": "fives",
+  "personajes": [
+   {
+    "clave": "fives",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "echo",
+    "x": 950,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D093": {
+  "titulo": "Hermanos",
+  "fondo": "kamino",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 950,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D094": {
+  "titulo": "Sueños",
+  "fondo": "templo_pasillo",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D095": {
+  "titulo": "Yoda",
+  "fondo": "templo_pasillo",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "yoda",
+    "x": 900,
+    "y_pies": 516,
+    "escala": 8
+   }
+  ]
+ },
+ "D096": {
+  "titulo": "Alderaan",
+  "fondo": "palacio_elegante",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "aurra_sing",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D097": {
+  "titulo": "Lo que no se dice",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D098": {
+  "titulo": "Raxus",
+  "fondo": "palacio_elegante",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mina_bonteri",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D099": {
+  "titulo": "El atentado",
+  "fondo": "senado",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D100": {
+  "titulo": "La paliza",
+  "fondo": "senado",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D101": {
+  "titulo": "Padmé herida",
+  "fondo": "departamento_padme",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 430,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 820,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D102": {
+  "titulo": "Traicionada",
+  "fondo": "dathomir",
+  "juega": "asajj_ventress",
+  "personajes": [
+   {
+    "clave": "asajj_ventress",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D103": {
+  "titulo": "Devaron",
+  "fondo": "jungla",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "savage_opress",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D104": {
+  "titulo": "Tres contra todos",
+  "fondo": "jungla",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "savage_opress",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "asajj_ventress",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "conde_dooku",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D105": {
+  "titulo": "Lo que dijo Dooku",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D106": {
+  "titulo": "La señal",
+  "fondo": "mortis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D107": {
+  "titulo": "El Padre",
+  "fondo": "mortis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "el_padre",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D108": {
+  "titulo": "La prueba",
+  "fondo": "mortis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "el_hijo",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "la_hija",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 1090,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D109": {
+  "titulo": "La oferta del Padre",
+  "fondo": "mortis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "el_padre",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D110": {
+  "titulo": "El altar",
+  "fondo": "mortis",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "el_hijo",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D111": {
+  "titulo": "Ahsoka contra Anakin",
+  "fondo": "mortis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D112": {
+  "titulo": "La Hija",
+  "fondo": "mortis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "la_hija",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "girado": true
+   }
+  ]
+ },
+ "D113": {
+  "titulo": "El futuro",
+  "fondo": "mortis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "el_hijo",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D114": {
+  "titulo": "Anakin perdido",
+  "fondo": "mortis",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "el_padre",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D115": {
+  "titulo": "El fin de Mortis",
+  "fondo": "mortis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "el_hijo",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "el_padre",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D116": {
+  "titulo": "El recuerdo",
+  "fondo": "mortis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "el_padre",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D117": {
+  "titulo": "De regreso",
+  "fondo": "mortis",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D118": {
+  "titulo": "El polizón",
+  "fondo": "puente_crucero",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D119": {
+  "titulo": "Tarkin",
+  "fondo": "ciudadela",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "wilhuff_tarkin",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D120": {
+  "titulo": "Even Piell",
+  "fondo": "ciudadela",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "even_piell",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "wilhuff_tarkin",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D121": {
+  "titulo": "La huida",
+  "fondo": "ciudadela",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D122": {
+  "titulo": "Echo",
+  "fondo": "ciudadela",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "echo",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "fives",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D123": {
+  "titulo": "El informe",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "wilhuff_tarkin",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "yoda",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   }
+  ]
+ },
+ "D124": {
+  "titulo": "Wasskah",
+  "fondo": "jungla",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D125": {
+  "titulo": "Garnac",
+  "fondo": "jungla",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "chewbacca",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "garnac",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D126": {
+  "titulo": "Anakin la busca",
+  "fondo": "puente_crucero",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D127": {
+  "titulo": "Llamado a Coruscant",
+  "fondo": "umbara",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "pong_krell",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D128": {
+  "titulo": "El general",
+  "fondo": "umbara",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "pong_krell",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D129": {
+  "titulo": "Los cazas umbaranos",
+  "fondo": "umbara",
+  "juega": "fives",
+  "personajes": [
+   {
+    "clave": "fives",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "hardcase",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "jesse",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D130": {
+  "titulo": "El pelotón de fusilamiento",
+  "fondo": "umbara",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "pong_krell",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "fives",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "jesse",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D131": {
+  "titulo": "Fuego amigo",
+  "fondo": "umbara",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "fives",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D132": {
+  "titulo": "Arrestar a un general",
+  "fondo": "umbara",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "pong_krell",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D133": {
+  "titulo": "Lo que Krell vio",
+  "fondo": "umbara",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "pong_krell",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D134": {
+  "titulo": "Dogma",
+  "fondo": "umbara",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "pong_krell",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "dogma",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D135": {
+  "titulo": "El juicio de Dogma",
+  "fondo": "umbara",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "dogma",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D136": {
+  "titulo": "El regreso",
+  "fondo": "umbara",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D137": {
+  "titulo": "Kiros",
+  "fondo": "pueblo_colonia",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D138": {
+  "titulo": "La máscara de esclavista",
+  "fondo": "palacio_elegante",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D139": {
+  "titulo": "El látigo de la reina",
+  "fondo": "palacio_elegante",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "reina_miraj_scintel",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D140": {
+  "titulo": "Fachada rota",
+  "fondo": "palacio_elegante",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D141": {
+  "titulo": "Kadavo",
+  "fondo": "ciudadela",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D142": {
+  "titulo": "La reina moribunda",
+  "fondo": "palacio_elegante",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "conde_dooku",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "reina_miraj_scintel",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "girado": true
+   }
+  ]
+ },
+ "D143": {
+  "titulo": "El centro de procesamiento",
+  "fondo": "ciudadela",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D144": {
+  "titulo": "Esclavo otra vez",
+  "fondo": "pasillo_republica",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D145": {
+  "titulo": "Los esclavos de Tatooine",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "yoda",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   }
+  ]
+ },
+ "D146": {
+  "titulo": "El disparo",
+  "fondo": "plataforma_coruscant",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "girado": true
+   }
+  ]
+ },
+ "D147": {
+  "titulo": "El plan secreto",
+  "fondo": "templo_pasillo",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "yoda",
+    "x": 900,
+    "y_pies": 516,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D148": {
+  "titulo": "La fuga",
+  "fondo": "ciudadela",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "rako_hardeen",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "cad_bane",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "moralo_eval",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D149": {
+  "titulo": "Anakin contra Hardeen",
+  "fondo": "niveles_bajos",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rako_hardeen",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D150": {
+  "titulo": "La Caja",
+  "fondo": "palacio_elegante",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "rako_hardeen",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "conde_dooku",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D151": {
+  "titulo": "El festival de Naboo",
+  "fondo": "naboo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D152": {
+  "titulo": "Obi-Wan vive",
+  "fondo": "naboo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D153": {
+  "titulo": "Dooku se lleva al Canciller",
+  "fondo": "naboo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "conde_dooku",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D154": {
+  "titulo": "Las palabras del Canciller",
+  "fondo": "naboo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D155": {
+  "titulo": "Hablar con Obi-Wan",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D156": {
+  "titulo": "El Consejo",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "yoda",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   }
+  ]
+ },
+ "D157": {
+  "titulo": "Lux y la Guardia de la Muerte",
+  "fondo": "puesto_avanzado",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "lux_bonteri",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D158": {
+  "titulo": "Masacre",
+  "fondo": "dathomir",
+  "juega": "asajj_ventress",
+  "personajes": [
+   {
+    "clave": "asajj_ventress",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "general_grievous",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D159": {
+  "titulo": "Raydonia",
+  "fondo": "pueblo_colonia",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "maul",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "savage_opress",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D160": {
+  "titulo": "Una aliada inesperada",
+  "fondo": "pueblo_colonia",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "maul",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "savage_opress",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "asajj_ventress",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D161": {
+  "titulo": "Las palabras de Maul",
+  "fondo": "pueblo_colonia",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "maul",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D162": {
+  "titulo": "El Sith que mató a Qui-Gon",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D163": {
+  "titulo": "Un Sith que sobrevivió",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D164": {
+  "titulo": "Cansancio",
+  "fondo": "departamento_padme",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 430,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 820,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D165": {
+  "titulo": "Una guerra por encargo",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "lux_bonteri",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   }
+  ]
+ },
+ "D166": {
+  "titulo": "Saw o Steela",
+  "fondo": "jungla",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "saw_gerrera",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "steela_gerrera",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D167": {
+  "titulo": "Ahsoka se queda",
+  "fondo": "jungla",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D168": {
+  "titulo": "El rey Dendup",
+  "fondo": "jungla",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "steela_gerrera",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D169": {
+  "titulo": "Las armas de Hondo",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "yoda",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   }
+  ]
+ },
+ "D170": {
+  "titulo": "Steela",
+  "fondo": "jungla",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "steela_gerrera",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D171": {
+  "titulo": "No puedes salvar a todos",
+  "fondo": "jungla",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D172": {
+  "titulo": "Lux",
+  "fondo": "jungla",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "lux_bonteri",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D173": {
+  "titulo": "El Colectivo Sombra",
+  "fondo": "niveles_bajos",
+  "juega": "maul",
+  "personajes": [
+   {
+    "clave": "maul",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "savage_opress",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D174": {
+  "titulo": "La duquesa presa",
+  "fondo": "palacio_mandalore",
+  "juega": "satine_kryze",
+  "personajes": [
+   {
+    "clave": "satine_kryze",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D175": {
+  "titulo": "El mensaje",
+  "fondo": "consejo_jedi",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "satine_kryze",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 6,
+    "holograma": true
+   }
+  ]
+ },
+ "D176": {
+  "titulo": "El sable oscuro",
+  "fondo": "palacio_mandalore",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "maul",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "satine_kryze",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D177": {
+  "titulo": "Las últimas palabras",
+  "fondo": "palacio_mandalore",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "maul",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "satine_kryze",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "girado": true
+   }
+  ]
+ },
+ "D178": {
+  "titulo": "Satine salvada",
+  "fondo": "palacio_mandalore",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "satine_kryze",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "maul",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D179": {
+  "titulo": "Bo-Katan",
+  "fondo": "palacio_mandalore",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "bo_katan_kryze",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D180": {
+  "titulo": "Sidious en Mandalore",
+  "fondo": "palacio_mandalore",
+  "juega": "maul",
+  "personajes": [
+   {
+    "clave": "maul",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "savage_opress",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D181": {
+  "titulo": "La fuga de Maul",
+  "fondo": "ciudadela",
+  "juega": "maul",
+  "personajes": [
+   {
+    "clave": "maul",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "madre_talzin",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D182": {
+  "titulo": "La última batalla de Talzin",
+  "fondo": "dathomir",
+  "juega": "maul",
+  "personajes": [
+   {
+    "clave": "maul",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "general_grievous",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "conde_dooku",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "madre_talzin",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D183": {
+  "titulo": "La duda de Dooku",
+  "fondo": "palacio_elegante",
+  "juega": "conde_dooku",
+  "personajes": [
+   {
+    "clave": "conde_dooku",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   }
+  ]
+ },
+ "D184": {
+  "titulo": "La bomba del Templo",
+  "fondo": "hangar_republica",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D185": {
+  "titulo": "Letta",
+  "fondo": "ciudadela",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "letta_turmond",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D186": {
+  "titulo": "Arrestada",
+  "fondo": "ciudadela",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D187": {
+  "titulo": "Juicio sin fuga",
+  "fondo": "niveles_bajos",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D188": {
+  "titulo": "Los niveles bajos",
+  "fondo": "niveles_bajos",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "asajj_ventress",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D189": {
+  "titulo": "La cacería",
+  "fondo": "niveles_bajos",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D190": {
+  "titulo": "El almacén",
+  "fondo": "niveles_bajos",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D191": {
+  "titulo": "Expulsada",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "yoda",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   }
+  ]
+ },
+ "D192": {
+  "titulo": "La defensora",
+  "fondo": "senado",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "wilhuff_tarkin",
+    "x": 180,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D193": {
+  "titulo": "Ventress acorralada",
+  "fondo": "senado",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "asajj_ventress",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D194": {
+  "titulo": "Barriss",
+  "fondo": "senado",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "barriss_offee",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D195": {
+  "titulo": "La confesión",
+  "fondo": "senado",
+  "juega": "barriss_offee",
+  "personajes": [
+   {
+    "clave": "barriss_offee",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "wilhuff_tarkin",
+    "x": 180,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D196": {
+  "titulo": "La puerta abierta",
+  "fondo": "templo_exterior",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 250,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 1030,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D197": {
+  "titulo": "Las escaleras del Templo",
+  "fondo": "templo_exterior",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 250,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 1030,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D198": {
+  "titulo": "Caballero Tano",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D199": {
+  "titulo": "Ringo Vinda",
+  "fondo": "campo_batalla",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "tup",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "tiplar",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D200": {
+  "titulo": "Escolta a Kamino",
+  "fondo": "kamino",
+  "juega": "fives",
+  "personajes": [
+   {
+    "clave": "fives",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "tup",
+    "x": 950,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D201": {
+  "titulo": "La autopsia",
+  "fondo": "kamino",
+  "juega": "fives",
+  "personajes": [
+   {
+    "clave": "fives",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "nala_se",
+    "x": 950,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "tup",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "az3",
+    "x": 150,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D202": {
+  "titulo": "El chip de Fives",
+  "fondo": "kamino",
+  "juega": "fives",
+  "personajes": [
+   {
+    "clave": "fives",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "az3",
+    "x": 950,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D203": {
+  "titulo": "Lama Su",
+  "fondo": "kamino",
+  "juega": "fives",
+  "personajes": [
+   {
+    "clave": "fives",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 150,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   },
+   {
+    "clave": "lama_su",
+    "x": 950,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D204": {
+  "titulo": "Ante el Canciller",
+  "fondo": "oficina_canciller",
+  "juega": "fives",
+  "personajes": [
+   {
+    "clave": "fives",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D205": {
+  "titulo": "Fugitivo",
+  "fondo": "niveles_bajos",
+  "juega": "fives",
+  "personajes": [
+   {
+    "clave": "fives",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D206": {
+  "titulo": "De Kamino al 501",
+  "fondo": "hangar_republica",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "fives",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D207": {
+  "titulo": "El almacén",
+  "fondo": "niveles_bajos",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "fives",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "comandante_fox",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D208": {
+  "titulo": "\"Todo fue una conspiración\"",
+  "fondo": "niveles_bajos",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "fives",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "girado": true
+   }
+  ]
+ },
+ "D209": {
+  "titulo": "Un viejo amigo",
+  "fondo": "departamento_padme",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 430,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rush_clovis",
+    "x": 820,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D210": {
+  "titulo": "Celos",
+  "fondo": "senado",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rush_clovis",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 180,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D211": {
+  "titulo": "Espacio",
+  "fondo": "senado",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D212": {
+  "titulo": "Scipio",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D213": {
+  "titulo": "Rehén",
+  "fondo": "palacio_elegante",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rush_clovis",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D214": {
+  "titulo": "Colgando",
+  "fondo": "palacio_elegante",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rush_clovis",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D215": {
+  "titulo": "Los bancos del Canciller",
+  "fondo": "senado",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D216": {
+  "titulo": "Oba Diah",
+  "fondo": "niveles_bajos",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "plo_koon",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D217": {
+  "titulo": "Tyranus",
+  "fondo": "consejo_jedi",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "yoda",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "plo_koon",
+    "x": 252,
+    "y_pies": 512,
+    "escala": 5
+   }
+  ]
+ },
+ "D218": {
+  "titulo": "El Consejo decide",
+  "fondo": "consejo_jedi",
+  "juega": "mace_windu",
+  "personajes": [
+   {
+    "clave": "mace_windu",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "yoda",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "ki_adi_mundi",
+    "x": 252,
+    "y_pies": 512,
+    "escala": 5
+   }
+  ]
+ },
+ "D219": {
+  "titulo": "Obi-Wan preocupado",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D220": {
+  "titulo": "Voces",
+  "fondo": "consejo_jedi",
+  "juega": "yoda",
+  "personajes": [
+   {
+    "clave": "yoda",
+    "x": 640,
+    "y_pies": 516,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   }
+  ]
+ },
+ "D221": {
+  "titulo": "Dagobah",
+  "fondo": "dagobah",
+  "juega": "yoda",
+  "personajes": [
+   {
+    "clave": "yoda",
+    "x": 380,
+    "y_pies": 516,
+    "escala": 8
+   },
+   {
+    "clave": "r2d2",
+    "x": 900,
+    "y_pies": 524,
+    "escala": 8
+   }
+  ]
+ },
+ "D222": {
+  "titulo": "Las sacerdotisas",
+  "fondo": "mortis",
+  "juega": "yoda",
+  "personajes": [
+   {
+    "clave": "yoda",
+    "x": 380,
+    "y_pies": 516,
+    "escala": 8
+   }
+  ]
+ },
+ "D223": {
+  "titulo": "Moraband",
+  "fondo": "moraband",
+  "juega": "yoda",
+  "personajes": [
+   {
+    "clave": "yoda",
+    "x": 380,
+    "y_pies": 516,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "conde_dooku",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   }
+  ]
+ },
+ "D224": {
+  "titulo": "La lección",
+  "fondo": "moraband",
+  "juega": "yoda",
+  "personajes": [
+   {
+    "clave": "yoda",
+    "x": 380,
+    "y_pies": 516,
+    "escala": 8
+   }
+  ]
+ },
+ "D225": {
+  "titulo": "La mirada de Yoda",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "yoda",
+    "x": 900,
+    "y_pies": 516,
+    "escala": 8
+   }
+  ]
+ },
+ "D226": {
+  "titulo": "Lo que la Fuerza puede hacer",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D227": {
+  "titulo": "Mon Mothma y Bail",
+  "fondo": "senado",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mon_mothma",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "bail_organa",
+    "x": 180,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D228": {
+  "titulo": "La orden de matar",
+  "fondo": "consejo_jedi",
+  "juega": "mace_windu",
+  "personajes": [
+   {
+    "clave": "mace_windu",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "yoda",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   }
+  ]
+ },
+ "D229": {
+  "titulo": "Quinlan y Ventress",
+  "fondo": "pueblo_colonia",
+  "juega": "quinlan_vos",
+  "personajes": [
+   {
+    "clave": "quinlan_vos",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "asajj_ventress",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D230": {
+  "titulo": "Amor",
+  "fondo": "pueblo_colonia",
+  "juega": "quinlan_vos",
+  "personajes": [
+   {
+    "clave": "quinlan_vos",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "asajj_ventress",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D231": {
+  "titulo": "El atentado",
+  "fondo": "palacio_elegante",
+  "juega": "quinlan_vos",
+  "personajes": [
+   {
+    "clave": "quinlan_vos",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "conde_dooku",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D232": {
+  "titulo": "El sacrificio de Ventress",
+  "fondo": "palacio_elegante",
+  "juega": "asajj_ventress",
+  "personajes": [
+   {
+    "clave": "asajj_ventress",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "quinlan_vos",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "conde_dooku",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D233": {
+  "titulo": "El Consejo también mata",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D234": {
+  "titulo": "Muerte en Utapau",
+  "fondo": "utapau",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D235": {
+  "titulo": "El cristal gigante",
+  "fondo": "utapau",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D236": {
+  "titulo": "Orgullo",
+  "fondo": "utapau",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D237": {
+  "titulo": "Padmé desaparecida",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D238": {
+  "titulo": "El oficial chiss",
+  "fondo": "pueblo_colonia",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "thrawn",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D239": {
+  "titulo": "Las palabras de Thrawn",
+  "fondo": "pueblo_colonia",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "thrawn",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D240": {
+  "titulo": "La fábrica de Batuu",
+  "fondo": "fabrica_droides",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "thrawn",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D241": {
+  "titulo": "La voz de Echo",
+  "fondo": "campo_batalla",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D242": {
+  "titulo": "Skako Minor",
+  "fondo": "fabrica_droides",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "hunter",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "tech",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   },
+   {
+    "clave": "wrecker",
+    "x": 1090,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D243": {
+  "titulo": "Echo",
+  "fondo": "fabrica_droides",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "echo_ciborg",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D244": {
+  "titulo": "Tech",
+  "fondo": "fabrica_droides",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "echo_ciborg",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "tech",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D245": {
+  "titulo": "El camino de Echo",
+  "fondo": "hangar_republica",
+  "juega": "echo",
+  "personajes": [
+   {
+    "clave": "echo_ciborg",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "hunter",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D246": {
+  "titulo": "Los niveles bajos",
+  "fondo": "niveles_bajos",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "trace_martez",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rafa_martez",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D247": {
+  "titulo": "Los Pyke",
+  "fondo": "niveles_bajos",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "rafa_martez",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "trace_martez",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D248": {
+  "titulo": "Bo-Katan",
+  "fondo": "niveles_bajos",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "bo_katan_kryze",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D249": {
+  "titulo": "Reencuentro",
+  "fondo": "campo_batalla",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "bo_katan_kryze",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D250": {
+  "titulo": "Sobre Coruscant",
+  "fondo": "espacio_batalla",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D251": {
+  "titulo": "La Mano Invisible",
+  "fondo": "pasillo_separatista",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "conde_dooku",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 1020,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D252": {
+  "titulo": "\"Mátalo\"",
+  "fondo": "pasillo_separatista",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "conde_dooku",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 1020,
+    "y_pies": 470,
+    "escala": 5
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 250,
+    "y_pies": 470,
+    "escala": 6,
+    "girado": true
+   }
+  ]
+ },
+ "D253": {
+  "titulo": "Obi-Wan en el suelo",
+  "fondo": "pasillo_separatista",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 1020,
+    "y_pies": 470,
+    "escala": 6,
+    "girado": true
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D254": {
+  "titulo": "La nave partida",
+  "fondo": "pasillo_separatista",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D255": {
+  "titulo": "La noticia",
+  "fondo": "senado",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D256": {
+  "titulo": "El sueño",
+  "fondo": "departamento_padme",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 430,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D257": {
+  "titulo": "Yoda",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "yoda",
+    "x": 900,
+    "y_pies": 516,
+    "escala": 8
+   }
+  ]
+ },
+ "D258": {
+  "titulo": "Naboo",
+  "fondo": "departamento_padme",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 430,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 820,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D259": {
+  "titulo": "Obi-Wan pregunta",
+  "fondo": "templo_pasillo",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D260": {
+  "titulo": "El representante",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D261": {
+  "titulo": "Sin rango de Maestro",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "mace_windu",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "yoda",
+    "x": 252,
+    "y_pies": 512,
+    "escala": 5
+   },
+   {
+    "clave": "ki_adi_mundi",
+    "x": 1026,
+    "y_pies": 512,
+    "escala": 5
+   }
+  ]
+ },
+ "D262": {
+  "titulo": "Espiar al Canciller",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D263": {
+  "titulo": "La ópera",
+  "fondo": "palacio_elegante",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D264": {
+  "titulo": "Utapau",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "mace_windu",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "yoda",
+    "x": 252,
+    "y_pies": 512,
+    "escala": 5
+   }
+  ]
+ },
+ "D265": {
+  "titulo": "La despedida",
+  "fondo": "plataforma_coruscant",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D266": {
+  "titulo": "Detener la guerra",
+  "fondo": "senado",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "bail_organa",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mon_mothma",
+    "x": 180,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D267": {
+  "titulo": "Maul",
+  "fondo": "campo_batalla",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "maul",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D268": {
+  "titulo": "El duelo",
+  "fondo": "campo_batalla",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "maul",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D269": {
+  "titulo": "Avisar",
+  "fondo": "pasillo_republica",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "maul",
+    "x": 1020,
+    "y_pies": 470,
+    "escala": 5
+   }
+  ]
+ },
+ "D270": {
+  "titulo": "El transporte",
+  "fondo": "pasillo_republica",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "maul",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D271": {
+  "titulo": "Grievous",
+  "fondo": "utapau",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "general_grievous",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D272": {
+  "titulo": "\"Tan incivilizado\"",
+  "fondo": "utapau",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "general_grievous",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "girado": true
+   }
+  ]
+ },
+ "D273": {
+  "titulo": "El Canciller es un Sith",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D274": {
+  "titulo": "Mace",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D275": {
+  "titulo": "La espera",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D276": {
+  "titulo": "Padmé en la ventana",
+  "fondo": "departamento_padme",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 430,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 820,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D277": {
+  "titulo": "El duelo en la oficina",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 760,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D278": {
+  "titulo": "Arrodillarse",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D279": {
+  "titulo": "Darth Vader",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D280": {
+  "titulo": "\"Perdónalos\"",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D281": {
+  "titulo": "Ejecuten la Orden 66",
+  "fondo": "pasillo_republica",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D282": {
+  "titulo": "Maul suelto",
+  "fondo": "pasillo_republica",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "maul",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D283": {
+  "titulo": "El chip de Rex",
+  "fondo": "pasillo_republica",
+  "juega": "ahsoka_tano",
+  "personajes": [
+   {
+    "clave": "ahsoka_tano",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "capitan_rex",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D284": {
+  "titulo": "Kaller",
+  "fondo": "jungla",
+  "juega": "caleb_dume",
+  "personajes": [
+   {
+    "clave": "caleb_dume",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "depa_billaba",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D285": {
+  "titulo": "El Templo",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D286": {
+  "titulo": "El humo del Templo",
+  "fondo": "departamento_padme",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 430,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 820,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D287": {
+  "titulo": "El Consejo Separatista",
+  "fondo": "mustafar",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "nute_gunray",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "wat_tambor",
+    "x": 660,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "poggle_el_menor",
+    "x": 660,
+    "y_pies": 470,
+    "escala": 6
+   }
+  ]
+ },
+ "D288": {
+  "titulo": "La verdad",
+  "fondo": "departamento_padme",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 430,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 820,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D289": {
+  "titulo": "El holograma",
+  "fondo": "templo_pasillo",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "yoda",
+    "x": 900,
+    "y_pies": 516,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 1090,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   }
+  ]
+ },
+ "D290": {
+  "titulo": "Ir a Mustafar",
+  "fondo": "departamento_padme",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 430,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 820,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D291": {
+  "titulo": "La plataforma",
+  "fondo": "mustafar",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D292": {
+  "titulo": "Obi-Wan en la rampa",
+  "fondo": "mustafar",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 660,
+    "y_pies": 470,
+    "escala": 6
+   }
+  ]
+ },
+ "D293": {
+  "titulo": "La posición alta",
+  "fondo": "mustafar",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D294": {
+  "titulo": "Vader entero",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D295": {
+  "titulo": "El traje",
+  "fondo": "kamino",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "darth_vader",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 950,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D296": {
+  "titulo": "Algo se rompe",
+  "fondo": "senado",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D297": {
+  "titulo": "Contra Sidious",
+  "fondo": "senado",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D298": {
+  "titulo": "La última transmisión",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mace_windu",
+    "x": 980,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D299": {
+  "titulo": "Los clones en el Templo",
+  "fondo": "templo_pasillo",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D300": {
+  "titulo": "Rex",
+  "fondo": "pasillo_republica",
+  "juega": "capitan_rex",
+  "personajes": [
+   {
+    "clave": "capitan_rex",
+    "x": 470,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "ahsoka_tano",
+    "x": 860,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D301": {
+  "titulo": "Utapau",
+  "fondo": "utapau",
+  "juega": "obi_wan_kenobi",
+  "personajes": [
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "comandante_cody",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D302": {
+  "titulo": "El Senado sin Canciller",
+  "fondo": "senado",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "bail_organa",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "mon_mothma",
+    "x": 180,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D303": {
+  "titulo": "La decisión de Anakin",
+  "fondo": "consejo_jedi",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "yoda",
+    "x": 144,
+    "y_pies": 532,
+    "escala": 5
+   },
+   {
+    "clave": "obi_wan_kenobi",
+    "x": 1134,
+    "y_pies": 532,
+    "escala": 5
+   }
+  ]
+ },
+ "D304": {
+  "titulo": "Los gemelos",
+  "fondo": "naboo",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D305": {
+  "titulo": "El trono vacío",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "darth_sidious",
+    "x": 1060,
+    "y_pies": 470,
+    "escala": 6,
+    "girado": true
+   }
+  ]
+ },
+ "D306": {
+  "titulo": "La Orden 66, por tu mano",
+  "fondo": "oficina_canciller",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 300,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D307": {
+  "titulo": "Padmé",
+  "fondo": "departamento_padme",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 430,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D308": {
+  "titulo": "La senadora y el emperador",
+  "fondo": "senado",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D309": {
+  "titulo": "La huida",
+  "fondo": "plataforma_coruscant",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D310": {
+  "titulo": "La llamada",
+  "fondo": "cabina",
+  "juega": "anakin_skywalker",
+  "personajes": [
+   {
+    "clave": "anakin_skywalker",
+    "x": 640,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "canciller_palpatine",
+    "x": 190,
+    "y_pies": 470,
+    "escala": 6,
+    "holograma": true
+   },
+   {
+    "clave": "padme_amidala",
+    "x": 330,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D311": {
+  "titulo": "La noticia",
+  "fondo": "naboo",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ },
+ "D312": {
+  "titulo": "Los gemelos",
+  "fondo": "naboo",
+  "juega": "padme_amidala",
+  "personajes": [
+   {
+    "clave": "padme_amidala",
+    "x": 380,
+    "y_pies": 600,
+    "escala": 8
+   },
+   {
+    "clave": "anakin_skywalker",
+    "x": 900,
+    "y_pies": 600,
+    "escala": 8
+   }
+  ]
+ }
+}

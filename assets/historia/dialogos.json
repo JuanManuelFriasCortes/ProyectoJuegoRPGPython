@@ -1,0 +1,410 @@
+{
+ "D002": {
+  "antes": [
+   {
+    "tipo": "narra",
+    "quien": "",
+    "clave": null,
+    "texto": "Christophsis. Los droides se repliegan detrás de su escudo y, por primera vez en horas, los disparos se detienen."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Rex",
+    "clave": "capitan_rex",
+    "texto": "¡General! Una lanzadera de la República viene en camino. Aterriza sola."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Obi-Wan",
+    "clave": "obi_wan_kenobi",
+    "texto": "Deben ser los refuerzos que pedimos. Aunque esperaba algo… más grande."
+   },
+   {
+    "tipo": "entra",
+    "quien": "Ahsoka",
+    "clave": "ahsoka_tano",
+    "texto": ""
+   },
+   {
+    "tipo": "narra",
+    "quien": "",
+    "clave": null,
+    "texto": "De la lanzadera baja una joven togruta, con la trenza de padawan colgándole del hombro."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Ahsoka",
+    "clave": "ahsoka_tano",
+    "texto": "Soy Ahsoka Tano. El Maestro Yoda me envía con un mensaje para el Maestro Skywalker."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Anakin",
+    "clave": "anakin_skywalker",
+    "texto": "¿Para mí? Te equivocaste de Jedi. La padawan nueva es de Obi-Wan."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Ahsoka",
+    "clave": "ahsoka_tano",
+    "texto": "No. El Maestro Yoda fue muy claro: voy a ser tu padawan."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Obi-Wan",
+    "clave": "obi_wan_kenobi",
+    "texto": "Parece que el Consejo tiene sentido del humor, Anakin."
+   },
+   {
+    "tipo": "narra",
+    "quien": "",
+    "clave": null,
+    "texto": "Nunca pediste una padawan. Y menos en medio de una guerra."
+   }
+  ],
+  "reacciones": {
+   "A": [
+    {
+     "tipo": "dice",
+     "quien": "Anakin",
+     "clave": "anakin_skywalker",
+     "texto": "Está bien, pequeña. Pero aquí nadie te va a llevar de la mano. Si no aguantas el ritmo, te regreso al Templo."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Ahsoka",
+     "clave": "ahsoka_tano",
+     "texto": "Tranquilo, Skyguy. Aguanto más de lo que crees."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Anakin",
+     "clave": "anakin_skywalker",
+     "texto": "¿\"Skyguy\"? …No me llames así."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Rex",
+     "clave": "capitan_rex",
+     "texto": "Creo que se van a llevar muy bien, señor."
+    }
+   ],
+   "B": [
+    {
+     "tipo": "dice",
+     "quien": "Anakin",
+     "clave": "anakin_skywalker",
+     "texto": "Esto tiene que ser un error. Rex, comunícame con el Maestro Yoda."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Ahsoka",
+     "clave": "ahsoka_tano",
+     "texto": "¿Un error? Ni siquiera me has visto pelear."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Obi-Wan",
+     "clave": "obi_wan_kenobi",
+     "texto": "Paciencia, Anakin. Escucha primero lo que el Maestro tiene que decir."
+    }
+   ],
+   "C": [
+    {
+     "tipo": "dice",
+     "quien": "Anakin",
+     "clave": "anakin_skywalker",
+     "texto": "Bienvenida a Christophsis, Ahsoka. No es el mejor lugar para empezar, pero aquí estamos juntos."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Ahsoka",
+     "clave": "ahsoka_tano",
+     "texto": "¡Gracias, Maestro! No te voy a decepcionar."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Obi-Wan",
+     "clave": "obi_wan_kenobi",
+     "texto": "Vaya. Eso sí que no lo esperaba de ti."
+    }
+   ]
+  }
+ },
+ "D022": {
+  "antes": [
+   {
+    "tipo": "narra",
+    "quien": "",
+    "clave": null,
+    "texto": "Palacio de Jabba, Tatooine. Entregas al pequeño Rotta sano y salvo, pero el silencio del salón no suena a gratitud."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Jabba",
+    "clave": "jabba_el_hutt",
+    "texto": "¡Jedi! Mi hijo está débil y enfermo… ¡Ustedes se lo llevaron para chantajearme!"
+   },
+   {
+    "tipo": "dice",
+    "quien": "Anakin",
+    "clave": "anakin_skywalker",
+    "texto": "Nosotros lo rescatamos, Jabba. Fueron los separatistas quienes se lo llevaron."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Ahsoka",
+    "clave": "ahsoka_tano",
+    "texto": "¡Lo cargamos por medio desierto! Y se la pasó babeándome la espalda."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Rotta",
+    "clave": "rotta",
+    "texto": "¡Ba-ba! ¡Ba-baaa!"
+   },
+   {
+    "tipo": "dice",
+    "quien": "Jabba",
+    "clave": "jabba_el_hutt",
+    "texto": "¡Mentiras de Jedi! ¡Guardias, ejecútenlos!"
+   },
+   {
+    "tipo": "narra",
+    "quien": "",
+    "clave": null,
+    "texto": "Los guardias gamorreanos levantan sus hachas. En Coruscant, Padmé busca la prueba que los salvaría… si llega a tiempo."
+   }
+  ],
+  "reacciones": {
+   "A": [
+    {
+     "tipo": "dice",
+     "quien": "Anakin",
+     "clave": "anakin_skywalker",
+     "texto": "Ahsoka, guarda el sable. Todavía no."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Ahsoka",
+     "clave": "ahsoka_tano",
+     "texto": "¿Todavía no? ¡Nos van a hacer pedacitos!"
+    },
+    {
+     "tipo": "dice",
+     "quien": "Anakin",
+     "clave": "anakin_skywalker",
+     "texto": "Confía en mí. Solo necesitamos un poco más de tiempo."
+    }
+   ],
+   "B": [
+    {
+     "tipo": "narra",
+     "quien": "",
+     "clave": null,
+     "texto": "El zumbido de tu sable llena el salón. Los guardias dan un paso atrás."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Anakin",
+     "clave": "anakin_skywalker",
+     "texto": "Un paso más y tu palacio se queda sin dueño, Jabba."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Jabba",
+     "clave": "jabba_el_hutt",
+     "texto": "¡Jo, jo, jo! El Jedi tiene agallas… Veamos cuánto le duran."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Ahsoka",
+     "clave": "ahsoka_tano",
+     "texto": "Maestro… creo que eso no ayudó."
+    }
+   ]
+  }
+ },
+ "D252": {
+  "antes": [
+   {
+    "tipo": "narra",
+    "quien": "",
+    "clave": null,
+    "texto": "La Mano Invisible, sobre Coruscant. Obi-Wan yace inconsciente y tu sable apunta al cuello del Conde Dooku."
+   },
+   {
+    "tipo": "narra",
+    "quien": "",
+    "clave": null,
+    "texto": "El duelo terminó. Dooku está vencido, a tu merced."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Palpatine",
+    "clave": "canciller_palpatine",
+    "texto": "¡Bien hecho, Anakin! ¡Muy bien hecho!"
+   },
+   {
+    "tipo": "narra",
+    "quien": "",
+    "clave": null,
+    "texto": "Dooku busca los ojos del Canciller. Por primera vez, parece sorprendido."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Palpatine",
+    "clave": "canciller_palpatine",
+    "texto": "Ahora… mátalo."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Anakin",
+    "clave": "anakin_skywalker",
+    "texto": "No debería. Ya está vencido. Es un prisionero."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Palpatine",
+    "clave": "canciller_palpatine",
+    "texto": "Es demasiado peligroso para dejarlo vivir. Mátalo, Anakin. Mátalo ahora."
+   }
+  ],
+  "reacciones": {
+   "A": [
+    {
+     "tipo": "narra",
+     "quien": "",
+     "clave": null,
+     "texto": "Un solo movimiento. El Conde cae sobre el piso del puente."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Anakin",
+     "clave": "anakin_skywalker",
+     "texto": "No debí hacerlo. Ese no es el camino de los Jedi."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Palpatine",
+     "clave": "canciller_palpatine",
+     "texto": "Era necesario, Anakin. Dooku nunca habría dejado de ser una amenaza."
+    }
+   ],
+   "B": [
+    {
+     "tipo": "dice",
+     "quien": "Anakin",
+     "clave": "anakin_skywalker",
+     "texto": "No. Un Jedi no mata a un prisionero vencido. Va a responder ante el Senado."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Palpatine",
+     "clave": "canciller_palpatine",
+     "texto": "…Como quieras, Anakin. Espero que no tengas que arrepentirte."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Dooku",
+     "clave": "conde_dooku",
+     "texto": "Me perdonaste la vida, muchacho. No tienes idea de lo que acabas de hacer."
+    },
+    {
+     "tipo": "narra",
+     "quien": "",
+     "clave": null,
+     "texto": "La mirada del Canciller se queda fija en el Conde un instante de más."
+    }
+   ]
+  }
+ },
+ "D267": {
+  "antes": [
+   {
+    "tipo": "narra",
+    "quien": "",
+    "clave": null,
+    "texto": "Sundari, Mandalore. Entre el humo del asedio, la guardia de Bo-Katan rodea a su prisionero. Pero Maul no parece acorralado."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Maul",
+    "clave": "maul",
+    "texto": "Ahsoka Tano. La aprendiz de Skywalker. Te estaba esperando."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Ahsoka",
+    "clave": "ahsoka_tano",
+    "texto": "Se acabó, Maul. Ríndete y nadie más tiene que salir herido."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Maul",
+    "clave": "maul",
+    "texto": "¿Rendirme? Hice caer este planeta solo para traerte hasta aquí."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Rex",
+    "clave": "capitan_rex",
+    "texto": "Comandante, no lo escuche. Está ganando tiempo."
+   },
+   {
+    "tipo": "dice",
+    "quien": "Maul",
+    "clave": "maul",
+    "texto": "Sidious está preparando a Skywalker para ser su nuevo aprendiz. Ayúdame a matarlo antes de que sea tarde."
+   },
+   {
+    "tipo": "narra",
+    "quien": "",
+    "clave": null,
+    "texto": "Algo en su voz te hace dudar. Anakin, siempre tan cerca del Canciller…"
+   }
+  ],
+  "reacciones": {
+   "A": [
+    {
+     "tipo": "dice",
+     "quien": "Ahsoka",
+     "clave": "ahsoka_tano",
+     "texto": "No vine a hacer tratos contigo. ¡Rex, cúbreme!"
+    },
+    {
+     "tipo": "dice",
+     "quien": "Rex",
+     "clave": "capitan_rex",
+     "texto": "¡A la orden, comandante!"
+    },
+    {
+     "tipo": "dice",
+     "quien": "Maul",
+     "clave": "maul",
+     "texto": "Entonces lo haremos a la manera difícil."
+    }
+   ],
+   "B": [
+    {
+     "tipo": "dice",
+     "quien": "Ahsoka",
+     "clave": "ahsoka_tano",
+     "texto": "Digamos que te creo. ¿Qué pruebas tienes?"
+    },
+    {
+     "tipo": "dice",
+     "quien": "Maul",
+     "clave": "maul",
+     "texto": "La verdad no se demuestra, niña. Se siente. Y tú ya la sientes."
+    },
+    {
+     "tipo": "dice",
+     "quien": "Rex",
+     "clave": "capitan_rex",
+     "texto": "Comandante… no me gusta esto."
+    }
+   ]
+  }
+ }
+}

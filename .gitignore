@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+# música con derechos: cada quien la baja con los links de assets/musica/preparar_musica.py
+assets/musica/originales/
+assets/musica/pistas/
+assets/ejemplos/escenas_completas/*.mp4
+*.tmp.*
+
+# la partida guardada de cada quien
+partida_guardada.json
